@@ -1,0 +1,2 @@
+info: ::1 - - [26/Jul/2024:06:01:36 +0000] "POST /api/v1/users HTTP/1.1" 201 343 "-" "PostmanRuntime/7.40.0"
+
