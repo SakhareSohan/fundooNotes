@@ -4,14 +4,14 @@
 import { Model } from 'sequelize';
 import { IUser } from '../interfaces/user.interface';
 const bcrypt = require('bcrypt');
- 
+
 export default (sequelize, DataTypes) => {
   class User extends Model<IUser> implements IUser {
     public firstName!: string;
     public lastName!: string;
     public email!: string;
     public password!: string;
-    public mobileNo!: string; 
+    public mobileNo!: string;
     public dob!: Date;
     public gender;
 
@@ -28,7 +28,7 @@ export default (sequelize, DataTypes) => {
     {
       firstName: {
         type: DataTypes.STRING,
-        allowNull: false, 
+        allowNull: false,
       },
       lastName: {
         type: DataTypes.STRING,
@@ -37,16 +37,16 @@ export default (sequelize, DataTypes) => {
       email: {
         type: DataTypes.STRING,
         unique: true,
-        allowNull: false, 
+        allowNull: false,
       },
       password: {
         type: DataTypes.STRING,
-        allowNull: false, 
+        allowNull: false,
       },
       mobileNo: {
         type: DataTypes.STRING,
-        unique: true, 
-        allowNull: false, 
+        unique: true,
+        allowNull: false,
       },
       dob: {
         type: DataTypes.DATEONLY,
@@ -61,14 +61,19 @@ export default (sequelize, DataTypes) => {
       sequelize,
       modelName: 'user',
       schema: 'fundoonotes',
-    //   hooks:{
-    //     beforeCreate: async (User, option) => {
-    //       if (User.changed('password')) {
-    //         User.password = await bcrypt.hash(User.password, 10);
-    //     }
-    //   }
-    // }
-  }
+      hooks: {
+        beforeCreate: async (User, option) => {
+          if (User.changed('password')) {
+            User.password = await bcrypt.hash(User.password, 10);
+          }
+        },
+        beforeUpdate: async (User, option) => {
+          if (User.changed('password')) {
+            User.password = await bcrypt.hash(User.password, 10);
+          }
+        }
+      }
+    }
   );
   return User;
 };

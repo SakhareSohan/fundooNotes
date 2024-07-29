@@ -1,0 +1,132 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T06:41:49.098Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T06:44:28.665Z"}
+error: 
+    status - 500 
+    message - Error: Token verification failed
+    at UserService.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\services\user.service.ts:46:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\services\user.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/3 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-07-27T06:47:37.143Z"}
+error: 
+    status - 500 
+    message - Error: Token verification failed
+    at UserService.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\services\user.service.ts:46:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\services\user.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/4 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-07-27T06:47:49.123Z"}
+error: 
+    status - 500 
+    message - Error: Token verification failed
+    at UserService.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\services\user.service.ts:46:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\services\user.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/5 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-07-27T06:47:54.092Z"}
+error: 
+    status - 500 
+    message - Error: Token verification failed
+    at UserService.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\services\user.service.ts:46:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\services\user.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/6 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-07-27T06:47:59.480Z"}
+error: 
+    status - 500 
+    message - Error: Token verification failed
+    at UserService.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\services\user.service.ts:46:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\services\user.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/8 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-07-27T06:48:45.341Z"}
+error: 
+    status - 500 
+    message - Error: Token verification failed
+    at UserService.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\services\user.service.ts:46:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\services\user.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/3 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-07-27T06:50:12.816Z"}
+error: 
+    status - 500 
+    message - Error: Token verification failed
+    at UserService.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\services\user.service.ts:46:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\services\user.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/9 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-07-27T06:53:13.173Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:00:09.080Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:02:48.418Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:04:51.686Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:05:48.482Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:05:51.903Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:06:14.633Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:06:22.973Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:06:26.912Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:06:30.571Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:06:32.800Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:06:36.398Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:06:44.829Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:07:34.332Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:07:39.564Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:07:45.849Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:07:49.117Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:07:53.527Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:08:00.362Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:08:38.952Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:08:49.691Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:08:51.180Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:08:55.724Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:09:02.152Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:09:11.672Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:09:59.112Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:12:57.831Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:12:59.594Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:13:27.549Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:13:31.127Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:13:33.256Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:13:52.585Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:13:55.698Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:14:16.226Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:14:22.498Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:15:12.451Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:15:21.144Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:15:22.161Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:18:56.628Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:20:07.223Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:20:08.459Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:20:21.648Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:20:24.357Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:23:03.846Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:23:09.107Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:23:13.027Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:23:17.055Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:23:39.596Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:23:54.294Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:24:58.717Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:25:01.397Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:25:13.177Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:25:14.765Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-27T07:25:16.994Z"}

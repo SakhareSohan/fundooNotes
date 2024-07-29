@@ -1,9 +1,10 @@
-import dotenv from 'dotenv';
-dotenv.config();
+// import dotenv from 'dotenv';
+// dotenv.config();
 
 import express, { Application } from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
+import cookieParser from 'cookie-parser';
 
 import routes from './routes';
 import ErrorHandler from './middlewares/error.middleware';
@@ -39,6 +40,7 @@ class App {
     this.app.use(express.urlencoded({ extended: true }));
     this.app.use(express.json());
     this.app.use(morgan('combined', { stream: this.logStream }));
+    this.app.use(cookieParser());
   }
 
   public initializeRoutes(): void {

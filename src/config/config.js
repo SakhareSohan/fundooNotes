@@ -7,7 +7,8 @@ module.exports = {
     database: process.env.DATABASE,
     host: process.env.HOST,
     port: process.env.PORT,
-    dialect: process.env.DIALECT
+    dialect: process.env.DIALECT,
+    secreat: process.env.SECREAT_KEY
   },
   test: {
     username: process.env.DB_USERNAME_TEST,
@@ -15,7 +16,8 @@ module.exports = {
     database: process.env.DATABASE_TEST,
     host: process.env.HOST_TEST,
     port: process.env.PORT_TEST,
-    dialect: process.env.DIALECT_TEST
+    dialect: process.env.DIALECT_TEST,
+    secreat: process.env.SECREAT_KEY
   },
   production: {
     username: process.env.DB_USERNAME,
@@ -23,6 +25,7 @@ module.exports = {
     database: process.env.DATABASE,
     host: process.env.HOST,
     port: process.env.PORT,
-    dialect: process.env.DIALECT
+    dialect: process.env.DIALECT,
+    secreat: process.env.SECREAT_KEY
   }
 };
