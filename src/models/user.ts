@@ -61,6 +61,7 @@ export default (sequelize, DataTypes) => {
       sequelize,
       modelName: 'user',
       schema: 'fundoonotes',
+      timestamps: false,
       hooks: {
         beforeCreate: async (User, option) => {
           if (User.changed('password')) {

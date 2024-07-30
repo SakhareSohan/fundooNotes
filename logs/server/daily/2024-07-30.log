@@ -1,0 +1,199 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T07:46:08.117Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:03:35.063Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:05:13.477Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:05:16.401Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:05:42.893Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:05:44.492Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:05:50.343Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:06:04.196Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:06:06.315Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:06:29.708Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:06:33.883Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:06:38.906Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:06:43.059Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:06:47.174Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:08:09.048Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:08:13.456Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:08:20.685Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:09:22.568Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:09:24.562Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:09:38.352Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:09:40.965Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:09:54.974Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:11:02.827Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:11:06.816Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:11:39.332Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:11:46.134Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:11:54.138Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:12:03.305Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:12:04.621Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:12:11.143Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:12:13.675Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:12:22.393Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:12:38.706Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:12:51.324Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:12:57.063Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:13:03.901Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:13:06.917Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:13:10.671Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/allNotes 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-07-30T09:14:05.374Z"}
+error: 
+    status - 500 
+    message - Error: Error fetching note with ID NaN: column "nan" does not exist
+    at NotesServices.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\services\notes.service.ts:24:13)
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\services\notes.service.ts:29:65)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/getNote 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-07-30T09:15:11.166Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:15:50.097Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:18:42.628Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:18:46.258Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:18:47.655Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:18:48.867Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:18:53.662Z"}
+error: 
+    status - 500 
+    message - Error: Error archiving note with ID 2: No note found with ID 2 to archive
+    at NotesServices.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\services\notes.service.ts:74:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\services\notes.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/archive/2 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-30T09:19:22.541Z"}
+error: 
+    status - 500 
+    message - Error: Error archiving note with ID 3: No note found with ID 3 to archive
+    at NotesServices.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\services\notes.service.ts:74:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\services\notes.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/archive/3 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-30T09:20:33.889Z"}
+error: 
+    status - 500 
+    message - Error: Error archiving note with ID 1: No note found with ID 1 to archive
+    at NotesServices.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\services\notes.service.ts:74:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\services\notes.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/archive/1 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-30T09:20:38.365Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:22:08.917Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:22:11.949Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:22:13.820Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:22:15.249Z"}
+error: 
+    status - 500 
+    message - Error: Error archiving note with ID 1: No note found with ID 1 to archive
+    at NotesServices.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\services\notes.service.ts:75:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\services\notes.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/archive/1 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-30T09:22:17.832Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:22:52.145Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:22:54.110Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:22:56.333Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:22:57.806Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:23:00.285Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:23:02.122Z"}
+error: 
+    status - 500 
+    message - Error: Error archiving note with ID 1: No note found with ID 1 to archive
+    at NotesServices.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\services\notes.service.ts:75:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\services\notes.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/archive/1 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-30T09:23:05.322Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:23:15.214Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:23:18.038Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:23:22.624Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:23:23.607Z"}
+error: 
+    status - 500 
+    message - Error: Error archiving note with ID 1: No note found with ID 1 to archive
+    at NotesServices.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\services\notes.service.ts:75:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\services\notes.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/archive/1 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-30T09:23:44.481Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:24:06.021Z"}
+error: 
+    status - 500 
+    message - Error: Error archiving note with ID 1: No note found with ID 1 to archive
+    at NotesServices.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\services\notes.service.ts:75:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\services\notes.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/archive/1 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-30T09:24:10.552Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:25:25.545Z"}
+error: 
+    status - 500 
+    message - Error: Error archiving note with ID 1: No note found with ID 1 to archive
+    at NotesServices.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\services\notes.service.ts:75:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\services\notes.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/archive/1 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-30T09:25:43.537Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:25:53.865Z"}
+error: 
+    status - 500 
+    message - Error: Error archiving note with ID 1: No note found with ID 1 to archive
+    at NotesServices.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\services\notes.service.ts:75:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\services\notes.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/archive/1 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-30T09:25:59.244Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:27:12.057Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:28:36.963Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:29:07.188Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:29:15.845Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:29:25.633Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:29:33.538Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:29:46.945Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:30:15.202Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:30:16.411Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:30:21.395Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:30:25.482Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:30:37.691Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:30:45.810Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T09:30:48.545Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/trash/1 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-07-30T09:31:38.644Z"}
