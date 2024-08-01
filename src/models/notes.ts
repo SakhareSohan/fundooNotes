@@ -41,7 +41,7 @@ export default (sequelize, DataTypes) => {
             sequelize,
             modelName: 'notes',
             schema: 'fundoonotes',
-            timestamps: false
+            // timestamps: false
           }
         );
     return Notes;
