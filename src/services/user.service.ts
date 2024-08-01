@@ -71,13 +71,14 @@ class UserService {
 
 
 
-  // //update a user
-  // public updateUser = async (id, body) => {
-  //   await this.User.update(body, {
-  //     where: { id: id }
-  //   });
-  //   return body;
-  // };
+  //update a user
+  public updateUser = async (id, body) => {
+    await this.User.update(body, {
+      where: { id: id }, 
+      individualHooks: true,
+    });
+    return body;
+  };
 
   // //delete a user
   // public deleteUser = async (id) => {

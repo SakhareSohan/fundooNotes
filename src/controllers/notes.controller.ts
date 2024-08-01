@@ -6,9 +6,9 @@ import notesService from '../services/notes.service';
 
 import { Request, Response, NextFunction } from 'express';
 
-class UserController {
+class UserController { 
   public NoteService = new notesService();
-
+  
    /**
   * Controller to get a single user
   * @param  {object} Request - request object
@@ -21,7 +21,7 @@ class UserController {
     next: NextFunction
   ): Promise<any> => {
     try {
-      const data = await this.NoteService.updateNote(parseInt(req.params.id), req.body);
+      const data = await this.NoteService.updateNote((req as any).id, req.body);
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: data,
@@ -44,7 +44,6 @@ class UserController {
     next: NextFunction
   ): Promise<any> => {
     try {
-      console.log((req as any).id);
       const data = await this.NoteService.createNote(req.body);
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,

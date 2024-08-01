@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable @typescript-eslint/no-unused-vars */
 'use strict';
-import { Model } from 'sequelize';
+import { DateOnlyDataType, Model } from 'sequelize';
 import { IUser } from '../interfaces/user.interface';
 const bcrypt = require('bcrypt');
 
@@ -12,7 +12,7 @@ export default (sequelize, DataTypes) => {
     public email!: string;
     public password!: string;
     public mobileNo!: string;
-    public dob!: Date;
+    public dob!: DateOnlyDataType;
     public gender;
 
     /**
@@ -63,17 +63,18 @@ export default (sequelize, DataTypes) => {
       schema: 'fundoonotes',
       timestamps: false,
       hooks: {
-        beforeCreate: async (User, option) => {
-          if (User.changed('password')) {
-            User.password = await bcrypt.hash(User.password, 10);
+        beforeCreate: async (user: User, options: any) => {
+          if (user.password) {
+            user.password = await bcrypt.hash(user.password, 10);
           }
         },
-        beforeUpdate: async (User, option) => {
-          if (User.changed('password')) {
-            User.password = await bcrypt.hash(User.password, 10);
+        beforeUpdate: async (user: User, options: any) => {
+          if (user.changed('password')) {
+            user.password = await bcrypt.hash(user.password, 10);
           }
-        }
+        },
       }
+      
     }
   );
   return User;

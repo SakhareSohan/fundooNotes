@@ -1,3 +1,5 @@
+import { DateOnlyDataType } from "sequelize";
+
 export type Gender = 'male' | 'female' | 'other';
 
 export interface IUser {
@@ -6,7 +8,7 @@ export interface IUser {
   email: string;
   mobileNo: string;
   password: string;
-  dob: Date;
+  dob: DateOnlyDataType;
   gender: Gender;
   id?: string | number;
 }

@@ -2,7 +2,7 @@ import sequelize, { DataTypes } from '../config/database';
 import notes from '../models/notes';
 
 class NotesServices {
-
+  
   public Note = notes(sequelize, DataTypes);
 
   public getAllNotes = async (id): Promise<any[]> => {
@@ -17,7 +17,7 @@ class NotesServices {
 
   public getNotes = async (id: number): Promise<any> => {
     try {
-      console.log('Getting notes');
+      console.log('inside note services, Getting notes');
       const data = await this.Note.findOne({ where: { id } });
       return data;
     } catch (error) {
@@ -27,7 +27,7 @@ class NotesServices {
 
   public createNote = async (body: any): Promise<any> => {
     try {
-      console.log('create notes');
+      console.log('inside note services create notes');
       const data = await this.Note.create(body);
       return data;
     } catch (error) {

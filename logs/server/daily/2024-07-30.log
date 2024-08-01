@@ -197,3 +197,284 @@ error:
       method - POST 
       IP - ::1
      {"timestamp":"2024-07-30T09:31:38.644Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:23:02.466Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:23:02.469Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:24:34.935Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:24:34.939Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:26:00.804Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:26:00.807Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:26:08.156Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:26:08.160Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:26:09.464Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:26:09.467Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:26:30.663Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:26:30.667Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:26:32.640Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:26:32.644Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:26:47.665Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:26:47.668Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:27:46.581Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:27:46.584Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:27:50.720Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:27:50.723Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:28:16.530Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:28:16.534Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:33:49.482Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:33:49.486Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:34:26.653Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:34:26.656Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:34:39.965Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:34:39.968Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:34:55.209Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:34:55.213Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:34:58.584Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:34:58.587Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:35:02.165Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:35:02.170Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:35:05.287Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:35:05.291Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:35:07.592Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:35:07.595Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:35:15.213Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:35:15.216Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:35:19.694Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:35:19.698Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:35:23.251Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:35:23.255Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:35:27.966Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:35:27.969Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:57:17.520Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:57:17.523Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:58:21.537Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:58:21.540Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:58:24.600Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:58:24.604Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T11:00:35.323Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T11:00:35.327Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T11:03:13.370Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T11:03:13.373Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T11:03:25.032Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T11:03:25.036Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T11:03:35.898Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T11:03:35.901Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T11:03:45.334Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T11:03:45.338Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T11:03:46.846Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T11:03:46.849Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T11:03:49.384Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T11:03:49.387Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T11:05:18.327Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T11:05:18.331Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T11:06:07.598Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T11:06:07.601Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T11:06:27.785Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T11:06:27.788Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T11:08:33.363Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T11:08:33.368Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T11:09:02.479Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T11:09:02.483Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T11:09:23.249Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T11:09:23.252Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T11:14:19.976Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T11:14:19.979Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T11:21:16.410Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T11:21:16.413Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T11:41:53.024Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T11:41:53.027Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-30T11:56:54.219Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T11:58:19.185Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T11:58:19.188Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-30T11:58:23.892Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:00:01.435Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:00:01.439Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:00:04.545Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:00:04.548Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:00:06.599Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:00:06.603Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:00:07.601Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:00:07.604Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-30T12:00:09.779Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:00:42.484Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:00:42.487Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:00:49.721Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:00:49.725Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:00:50.824Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:00:50.828Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:00:52.229Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:00:52.233Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:00:55.149Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:00:55.153Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:00:56.605Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:00:56.608Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:00:58.894Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:00:58.897Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-30T12:01:02.697Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:01:15.679Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:01:15.683Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:02:26.471Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:02:26.474Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:02:41.964Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:02:41.967Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:02:53.708Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:02:53.711Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:02:59.155Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:02:59.158Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:03:00.340Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:03:00.343Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:03:02.456Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:03:02.459Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-30T12:03:07.440Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:03:37.470Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:03:37.474Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:03:42.923Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:03:42.926Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:04:18.079Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:04:18.083Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:32:11.820Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:33:19.174Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:35:46.865Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:39:42.569Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:39:49.489Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:39:54.804Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:40:04.330Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:40:21.193Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:40:26.330Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:40:37.251Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:40:43.845Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:40:48.383Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:40:55.447Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:41:32.800Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:41:36.791Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:41:40.515Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:42:06.202Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:42:18.909Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:42:23.411Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:42:27.348Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:42:32.298Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:42:36.455Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:42:40.131Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:42:47.074Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:43:00.822Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:43:09.195Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:43:11.500Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:43:14.982Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:43:18.728Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:43:20.562Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:43:24.892Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:43:27.039Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:43:33.435Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:43:36.039Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:43:37.973Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:45:35.912Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:45:44.919Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:45:50.073Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:45:56.461Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:46:10.317Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:46:18.561Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:46:21.037Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:46:25.219Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:46:41.363Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:46:50.732Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:47:09.048Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:47:27.940Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:47:32.285Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:47:42.611Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:48:05.958Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:48:18.487Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:00:09.227Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:04:52.097Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:04:57.283Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:06:33.076Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:07:31.393Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:08:28.527Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:09:39.487Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:09:54.052Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:10:10.877Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:10:16.289Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:10:20.243Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:10:23.915Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:10:28.827Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:10:48.108Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:10:56.735Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:11:00.081Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:11:07.579Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:14:10.673Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:17:16.495Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:17:27.429Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:17:30.581Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:18:35.796Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:18:42.057Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:30:38.717Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:30:44.771Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:30:46.749Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:30:58.752Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:31:01.064Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:31:03.172Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:31:05.784Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:31:49.177Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:47:05.510Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:47:07.941Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:47:22.884Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:48:04.180Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:48:18.410Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:48:22.199Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:48:25.722Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:48:30.805Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:49:07.607Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T18:21:31.720Z"}

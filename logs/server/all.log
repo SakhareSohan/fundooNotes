@@ -2038,3 +2038,788 @@ error:
       method - POST 
       IP - ::1
      {"timestamp":"2024-07-30T09:31:38.644Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:23:02.466Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:23:02.469Z"}
+error: uncaughtException: EISDIR: illegal operation on a directory, read
+Error: EISDIR: illegal operation on a directory, read
+    at Object.readSync (node:fs:727:3)
+    at tryReadSync (node:fs:433:20)
+    at Object.readFileSync (node:fs:479:19)
+    at extractAnnotations (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\swagger-jsdoc\src\utils.js:54:26)
+    at build (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\swagger-jsdoc\src\specification.js:200:9)
+    at module.exports (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at Object.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\swaggerConfig.ts:20:33)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Sakhare Sohan\AppData\Local\Temp\ts-node-dev-hook-3534611378004149.js:69:33) {"date":"Tue Jul 30 2024 15:53:55 GMT+0530 (India Standard Time)","error":{"code":"EISDIR","errno":-4068,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":309725},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":1717590,"external":4962281,"heapTotal":56004608,"heapUsed":35070224,"rss":74760192},"pid":3080,"uid":null,"version":"v16.15.1"},"stack":"Error: EISDIR: illegal operation on a directory, read\n    at Object.readSync (node:fs:727:3)\n    at tryReadSync (node:fs:433:20)\n    at Object.readFileSync (node:fs:479:19)\n    at extractAnnotations (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\swagger-jsdoc\\src\\utils.js:54:26)\n    at build (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\swagger-jsdoc\\src\\specification.js:200:9)\n    at module.exports (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\swagger-jsdoc\\src\\lib.js:32:10)\n    at Object.<anonymous> (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\swaggerConfig.ts:20:33)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\Sakhare Sohan\\AppData\\Local\\Temp\\ts-node-dev-hook-3534611378004149.js:69:33)","timestamp":"2024-07-30T10:23:55.681Z","trace":[{"column":3,"file":"node:fs","function":"Object.readSync","line":727,"method":"readSync","native":false},{"column":20,"file":"node:fs","function":"tryReadSync","line":433,"method":null,"native":false},{"column":19,"file":"node:fs","function":"Object.readFileSync","line":479,"method":"readFileSync","native":false},{"column":26,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\swagger-jsdoc\\src\\utils.js","function":"extractAnnotations","line":54,"method":null,"native":false},{"column":9,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\swagger-jsdoc\\src\\specification.js","function":"build","line":200,"method":null,"native":false},{"column":10,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\swagger-jsdoc\\src\\lib.js","function":"module.exports","line":32,"method":"exports","native":false},{"column":33,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\swaggerConfig.ts","function":null,"line":20,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\Sakhare Sohan\\AppData\\Local\\Temp\\ts-node-dev-hook-3534611378004149.js","function":"Module.m._compile","line":69,"method":"_compile","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:24:34.935Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:24:34.939Z"}
+error: uncaughtException: EISDIR: illegal operation on a directory, read
+Error: EISDIR: illegal operation on a directory, read
+    at Object.readSync (node:fs:727:3)
+    at tryReadSync (node:fs:433:20)
+    at Object.readFileSync (node:fs:479:19)
+    at extractAnnotations (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\swagger-jsdoc\src\utils.js:54:26)
+    at build (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\swagger-jsdoc\src\specification.js:200:9)
+    at module.exports (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at Object.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\swaggerConfig.ts:20:33)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Sakhare Sohan\AppData\Local\Temp\ts-node-dev-hook-3534611378004149.js:69:33) {"date":"Tue Jul 30 2024 15:55:56 GMT+0530 (India Standard Time)","error":{"code":"EISDIR","errno":-4068,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":309846},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":1711191,"external":3719972,"heapTotal":56004608,"heapUsed":34960144,"rss":74641408},"pid":17492,"uid":null,"version":"v16.15.1"},"stack":"Error: EISDIR: illegal operation on a directory, read\n    at Object.readSync (node:fs:727:3)\n    at tryReadSync (node:fs:433:20)\n    at Object.readFileSync (node:fs:479:19)\n    at extractAnnotations (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\swagger-jsdoc\\src\\utils.js:54:26)\n    at build (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\swagger-jsdoc\\src\\specification.js:200:9)\n    at module.exports (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\swagger-jsdoc\\src\\lib.js:32:10)\n    at Object.<anonymous> (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\swaggerConfig.ts:20:33)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\Sakhare Sohan\\AppData\\Local\\Temp\\ts-node-dev-hook-3534611378004149.js:69:33)","timestamp":"2024-07-30T10:25:56.794Z","trace":[{"column":3,"file":"node:fs","function":"Object.readSync","line":727,"method":"readSync","native":false},{"column":20,"file":"node:fs","function":"tryReadSync","line":433,"method":null,"native":false},{"column":19,"file":"node:fs","function":"Object.readFileSync","line":479,"method":"readFileSync","native":false},{"column":26,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\swagger-jsdoc\\src\\utils.js","function":"extractAnnotations","line":54,"method":null,"native":false},{"column":9,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\swagger-jsdoc\\src\\specification.js","function":"build","line":200,"method":null,"native":false},{"column":10,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\swagger-jsdoc\\src\\lib.js","function":"module.exports","line":32,"method":"exports","native":false},{"column":33,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\swaggerConfig.ts","function":null,"line":20,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\Sakhare Sohan\\AppData\\Local\\Temp\\ts-node-dev-hook-3534611378004149.js","function":"Module.m._compile","line":69,"method":"_compile","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:26:00.804Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:26:00.807Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:26:08.156Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:26:08.160Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:26:09.464Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:26:09.467Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:26:30.663Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:26:30.667Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:26:32.640Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:26:32.644Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:26:47.665Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:26:47.668Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:27:46.581Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:27:46.584Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:27:50.720Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:27:50.723Z"}
+error: uncaughtException: Cannot find module 'C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\build\index.ts'. Please verify that the package.json has a valid "main" entry
+Error: Cannot find module 'C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\build\index.ts'. Please verify that the package.json has a valid "main" entry
+    at tryPackage (node:internal/modules/cjs/loader:353:19)
+    at Function.Module._findPath (node:internal/modules/cjs/loader:566:18)
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:919:27)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:14:1)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Sakhare Sohan\AppData\Local\Temp\ts-node-dev-hook-11618971984831261.js:69:33) {"date":"Tue Jul 30 2024 15:58:12 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","path":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\package.json","requestPath":"../"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":309981},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":700687,"external":3848459,"heapTotal":54956032,"heapUsed":27420248,"rss":67493888},"pid":23748,"uid":null,"version":"v16.15.1"},"stack":"Error: Cannot find module 'C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\build\\index.ts'. Please verify that the package.json has a valid \"main\" entry\n    at tryPackage (node:internal/modules/cjs/loader:353:19)\n    at Function.Module._findPath (node:internal/modules/cjs/loader:566:18)\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:919:27)\n    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:14:1)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\Sakhare Sohan\\AppData\\Local\\Temp\\ts-node-dev-hook-11618971984831261.js:69:33)","timestamp":"2024-07-30T10:28:12.470Z","trace":[{"column":19,"file":"node:internal/modules/cjs/loader","function":"tryPackage","line":353,"method":null,"native":false},{"column":18,"file":"node:internal/modules/cjs/loader","function":"Module._findPath","line":566,"method":"_findPath","native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":919,"method":"_resolveFilename","native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":778,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":null,"line":14,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\Sakhare Sohan\\AppData\\Local\\Temp\\ts-node-dev-hook-11618971984831261.js","function":"Module.m._compile","line":69,"method":"_compile","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:28:16.530Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:28:16.534Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:33:49.482Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:33:49.486Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:34:26.653Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:34:26.656Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:34:39.965Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:34:39.968Z"}
+error: uncaughtException: must provide pattern
+Error: must provide pattern
+    at new GlobSync (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\glob\sync.js:31:11)
+    at Function.globSync [as sync] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\glob\sync.js:26:10)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\swagger-jsdoc\src\utils.js:13:31
+    at Array.map (<anonymous>)
+    at convertGlobPaths (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\swagger-jsdoc\src\utils.js:13:6)
+    at build (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\swagger-jsdoc\src\specification.js:196:26)
+    at module.exports (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at Object.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\swaggerConfig.ts:20:33)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25) {"date":"Tue Jul 30 2024 16:04:50 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":310379},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":1703933,"external":4955762,"heapTotal":56004608,"heapUsed":35034752,"rss":75481088},"pid":10700,"uid":null,"version":"v16.15.1"},"stack":"Error: must provide pattern\n    at new GlobSync (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\glob\\sync.js:31:11)\n    at Function.globSync [as sync] (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\glob\\sync.js:26:10)\n    at C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\swagger-jsdoc\\src\\utils.js:13:31\n    at Array.map (<anonymous>)\n    at convertGlobPaths (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\swagger-jsdoc\\src\\utils.js:13:6)\n    at build (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\swagger-jsdoc\\src\\specification.js:196:26)\n    at module.exports (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\swagger-jsdoc\\src\\lib.js:32:10)\n    at Object.<anonymous> (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\swaggerConfig.ts:20:33)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)","timestamp":"2024-07-30T10:34:50.303Z","trace":[{"column":11,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\glob\\sync.js","function":"new GlobSync","line":31,"method":null,"native":false},{"column":10,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\glob\\sync.js","function":"Function.globSync [as sync]","line":26,"method":"globSync [as sync]","native":false},{"column":31,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\swagger-jsdoc\\src\\utils.js","function":null,"line":13,"method":null,"native":false},{"column":null,"file":null,"function":"Array.map","line":null,"method":"map","native":false},{"column":6,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\swagger-jsdoc\\src\\utils.js","function":"convertGlobPaths","line":13,"method":null,"native":false},{"column":26,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\swagger-jsdoc\\src\\specification.js","function":"build","line":196,"method":null,"native":false},{"column":10,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\swagger-jsdoc\\src\\lib.js","function":"module.exports","line":32,"method":"exports","native":false},{"column":33,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\swaggerConfig.ts","function":null,"line":20,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:34:55.209Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:34:55.213Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:34:58.584Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:34:58.587Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:35:02.165Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:35:02.170Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:35:05.287Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:35:05.291Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:35:07.592Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:35:07.595Z"}
+error: uncaughtException: must provide pattern
+Error: must provide pattern
+    at new GlobSync (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\glob\sync.js:31:11)
+    at Function.globSync [as sync] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\glob\sync.js:26:10)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\swagger-jsdoc\src\utils.js:13:31
+    at Array.map (<anonymous>)
+    at convertGlobPaths (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\swagger-jsdoc\src\utils.js:13:6)
+    at build (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\swagger-jsdoc\src\specification.js:196:26)
+    at module.exports (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\swagger-jsdoc\src\lib.js:32:10)
+    at Object.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\swaggerConfig.ts:20:33)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25) {"date":"Tue Jul 30 2024 16:05:11 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":310400},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":1703933,"external":4955762,"heapTotal":56004608,"heapUsed":35486248,"rss":74964992},"pid":16732,"uid":null,"version":"v16.15.1"},"stack":"Error: must provide pattern\n    at new GlobSync (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\glob\\sync.js:31:11)\n    at Function.globSync [as sync] (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\glob\\sync.js:26:10)\n    at C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\swagger-jsdoc\\src\\utils.js:13:31\n    at Array.map (<anonymous>)\n    at convertGlobPaths (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\swagger-jsdoc\\src\\utils.js:13:6)\n    at build (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\swagger-jsdoc\\src\\specification.js:196:26)\n    at module.exports (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\swagger-jsdoc\\src\\lib.js:32:10)\n    at Object.<anonymous> (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\swaggerConfig.ts:20:33)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)","timestamp":"2024-07-30T10:35:11.205Z","trace":[{"column":11,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\glob\\sync.js","function":"new GlobSync","line":31,"method":null,"native":false},{"column":10,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\glob\\sync.js","function":"Function.globSync [as sync]","line":26,"method":"globSync [as sync]","native":false},{"column":31,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\swagger-jsdoc\\src\\utils.js","function":null,"line":13,"method":null,"native":false},{"column":null,"file":null,"function":"Array.map","line":null,"method":"map","native":false},{"column":6,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\swagger-jsdoc\\src\\utils.js","function":"convertGlobPaths","line":13,"method":null,"native":false},{"column":26,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\swagger-jsdoc\\src\\specification.js","function":"build","line":196,"method":null,"native":false},{"column":10,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\swagger-jsdoc\\src\\lib.js","function":"module.exports","line":32,"method":"exports","native":false},{"column":33,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\swaggerConfig.ts","function":null,"line":20,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:35:15.213Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:35:15.216Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:35:19.694Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:35:19.698Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:35:23.251Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:35:23.255Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:35:27.966Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:35:27.969Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:57:17.520Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:57:17.523Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:58:21.537Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:58:21.540Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T10:58:24.600Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T10:58:24.604Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T11:00:35.323Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T11:00:35.327Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T11:03:13.370Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T11:03:13.373Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T11:03:25.032Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T11:03:25.036Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T11:03:35.898Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T11:03:35.901Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T11:03:45.334Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T11:03:45.338Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T11:03:46.846Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T11:03:46.849Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T11:03:49.384Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T11:03:49.387Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T11:05:18.327Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T11:05:18.331Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T11:06:07.598Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T11:06:07.601Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T11:06:27.785Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T11:06:27.788Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T11:08:33.363Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T11:08:33.368Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T11:09:02.479Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T11:09:02.483Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T11:09:23.249Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T11:09:23.252Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T11:14:19.976Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T11:14:19.979Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T11:21:16.410Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T11:21:16.413Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T11:41:53.024Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T11:41:53.027Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-30T11:56:54.219Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T11:58:19.185Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T11:58:19.188Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-30T11:58:23.892Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:00:01.435Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:00:01.439Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:00:04.545Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:00:04.548Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:00:06.599Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:00:06.603Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:00:07.601Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:00:07.604Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-30T12:00:09.779Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:00:42.484Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:00:42.487Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:00:49.721Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:00:49.725Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:00:50.824Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:00:50.828Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:00:52.229Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:00:52.233Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:00:55.149Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:00:55.153Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:00:56.605Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:00:56.608Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:00:58.894Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:00:58.897Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-30T12:01:02.697Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:01:15.679Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:01:15.683Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:02:26.471Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:02:26.474Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:02:41.964Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:02:41.967Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:02:53.708Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:02:53.711Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:02:59.155Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:02:59.158Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:03:00.340Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:03:00.343Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:03:02.456Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:03:02.459Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-30T12:03:07.440Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:03:37.470Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:03:37.474Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:03:42.923Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:03:42.926Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-07-30T12:04:18.079Z"}
+info: Swagger UI available at http://localhost:3000/api-docs {"timestamp":"2024-07-30T12:04:18.083Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:32:11.820Z"}
+error: uncaughtException: Connection terminated unexpectedly
+SequelizeConnectionError: Connection terminated unexpectedly
+    at Client._connectionCallback (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\connection-manager.js:200:20)
+    at Connection.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\pg\lib\client.js:145:18)
+    at Object.onceWrapper (node:events:641:28)
+    at Connection.emit (node:events:527:28)
+    at Socket.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\pg\lib\connection.js:63:12)
+    at Socket.emit (node:events:527:28)
+    at TCP.<anonymous> (node:net:709:12) {"date":"Tue Jul 30 2024 22:02:11 GMT+0530 (India Standard Time)","error":{"name":"SequelizeConnectionError","original":{},"parent":{}},"exception":true,"os":{"loadavg":[0,0,0],"uptime":331821},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":107051,"external":5978932,"heapTotal":56266752,"heapUsed":24836304,"rss":77459456},"pid":19696,"uid":null,"version":"v16.15.1"},"stack":"SequelizeConnectionError: Connection terminated unexpectedly\n    at Client._connectionCallback (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\sequelize\\src\\dialects\\postgres\\connection-manager.js:200:20)\n    at Connection.<anonymous> (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\pg\\lib\\client.js:145:18)\n    at Object.onceWrapper (node:events:641:28)\n    at Connection.emit (node:events:527:28)\n    at Socket.<anonymous> (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\pg\\lib\\connection.js:63:12)\n    at Socket.emit (node:events:527:28)\n    at TCP.<anonymous> (node:net:709:12)","timestamp":"2024-07-30T16:32:11.931Z","trace":[{"column":20,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\sequelize\\src\\dialects\\postgres\\connection-manager.js","function":"Client._connectionCallback","line":200,"method":"_connectionCallback","native":false},{"column":18,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\pg\\lib\\client.js","function":null,"line":145,"method":null,"native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":641,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Connection.emit","line":527,"method":"emit","native":false},{"column":12,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\pg\\lib\\connection.js","function":null,"line":63,"method":null,"native":false},{"column":28,"file":"node:events","function":"Socket.emit","line":527,"method":"emit","native":false},{"column":12,"file":"node:net","function":null,"line":709,"method":null,"native":false}]}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:33:19.174Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:35:46.865Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:39:42.569Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:39:49.489Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:39:54.804Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:40:04.330Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:40:21.193Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:40:26.330Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:40:37.251Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:40:43.845Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:40:48.383Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:40:55.447Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:41:32.800Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:41:36.791Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:41:40.515Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:42:06.202Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:42:18.909Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:42:23.411Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:42:27.348Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:42:32.298Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:42:36.455Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:42:40.131Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:42:47.074Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:43:00.822Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:43:09.195Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:43:11.500Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:43:14.982Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:43:18.728Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:43:20.562Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:43:24.892Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:43:27.039Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:43:33.435Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:43:36.039Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:43:37.973Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:45:35.912Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:45:44.919Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:45:50.073Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:45:56.461Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:46:10.317Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:46:18.561Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:46:21.037Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:46:25.219Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:46:41.363Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:46:50.732Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:47:09.048Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:47:27.940Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:47:32.285Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:47:42.611Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:48:05.958Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T16:48:18.487Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:00:09.227Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:04:52.097Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:04:57.283Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:06:33.076Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:07:31.393Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:08:28.527Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:09:39.487Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:09:54.052Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:10:10.877Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:10:16.289Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:10:20.243Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:10:23.915Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:10:28.827Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:10:48.108Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:10:56.735Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:11:00.081Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:11:07.579Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:14:10.673Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:17:16.495Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:17:27.429Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:17:30.581Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:18:35.796Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:18:42.057Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:30:38.717Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:30:44.771Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:30:46.749Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:30:58.752Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:31:01.064Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:31:03.172Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:31:05.784Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:31:49.177Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:47:05.510Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:47:07.941Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:47:22.884Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:48:04.180Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:48:18.410Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:48:22.199Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:48:25.722Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:48:30.805Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T17:49:07.607Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T18:21:31.720Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T18:33:14.411Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T18:33:26.212Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T18:33:28.271Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T18:33:33.477Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T18:33:53.260Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T18:34:43.827Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T18:34:48.541Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T18:34:51.875Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T18:35:53.808Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T18:36:05.711Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T18:41:07.441Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T18:41:13.085Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T18:41:16.718Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T18:41:24.590Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T18:41:28.206Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T18:41:35.366Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T18:41:39.622Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T18:41:41.547Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T18:41:59.649Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T18:42:03.724Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T18:42:15.372Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T18:42:22.675Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T18:42:31.946Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T18:42:44.032Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T18:42:50.322Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T18:43:22.610Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-30T18:43:33.910Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-31T05:46:32.380Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-31T05:51:14.499Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-31T05:52:38.642Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-31T05:52:42.073Z"}
+error: uncaughtException: swa is not defined
+ReferenceError: swa is not defined
+    at App.initializeRoutes (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:54:34)
+    at new App (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:37:10)
+    at Object.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:76:13)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Sakhare Sohan\AppData\Local\Temp\ts-node-dev-hook-25319501451427495.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Sakhare Sohan\AppData\Local\Temp\ts-node-dev-hook-25319501451427495.js:114:20)
+    at require.extensions.<computed> (C:\Users\Sakhare Sohan\AppData\Local\Temp\ts-node-dev-hook-25319501451427495.js:71:20)
+    at Object.nodeDevHook [as .ts] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13) {"date":"Wed Jul 31 2024 11:23:58 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":379927},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":729752,"external":3890565,"heapTotal":54956032,"heapUsed":28465304,"rss":67649536},"pid":9052,"uid":null,"version":"v16.15.1"},"stack":"ReferenceError: swa is not defined\n    at App.initializeRoutes (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:54:34)\n    at new App (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:37:10)\n    at Object.<anonymous> (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:76:13)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\Sakhare Sohan\\AppData\\Local\\Temp\\ts-node-dev-hook-25319501451427495.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\Sakhare Sohan\\AppData\\Local\\Temp\\ts-node-dev-hook-25319501451427495.js:114:20)\n    at require.extensions.<computed> (C:\\Users\\Sakhare Sohan\\AppData\\Local\\Temp\\ts-node-dev-hook-25319501451427495.js:71:20)\n    at Object.nodeDevHook [as .ts] (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)","timestamp":"2024-07-31T05:53:58.174Z","trace":[{"column":34,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":"App.initializeRoutes","line":54,"method":"initializeRoutes","native":false},{"column":10,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":"new App","line":37,"method":null,"native":false},{"column":13,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":null,"line":76,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\Sakhare Sohan\\AppData\\Local\\Temp\\ts-node-dev-hook-25319501451427495.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":20,"file":"C:\\Users\\Sakhare Sohan\\AppData\\Local\\Temp\\ts-node-dev-hook-25319501451427495.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false},{"column":20,"file":"C:\\Users\\Sakhare Sohan\\AppData\\Local\\Temp\\ts-node-dev-hook-25319501451427495.js","function":"require.extensions.<computed>","line":71,"method":"<computed>","native":false},{"column":13,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .ts]","line":63,"method":"ts]","native":false}]}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-31T05:54:03.355Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-31T05:54:05.643Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-31T05:59:25.633Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-31T06:01:04.256Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-31T06:05:55.618Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-31T06:07:58.601Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-31T06:08:16.503Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-31T06:10:13.568Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-31T06:11:24.977Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-31T06:13:12.580Z"}
+info: Server started at localhost:5432/api/v1/ {"timestamp":"2024-07-31T06:14:41.015Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T06:14:54.590Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T06:16:34.809Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T06:16:43.007Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T06:28:27.521Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T06:28:29.898Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T06:28:37.297Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T06:28:41.960Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T06:28:46.575Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T06:36:59.814Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T06:37:12.518Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T06:37:43.511Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T06:38:15.364Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T06:49:51.517Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T06:50:02.382Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T06:50:13.597Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T06:50:19.072Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T06:50:25.795Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T06:50:30.388Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T06:50:34.253Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T06:50:36.074Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T06:50:55.386Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T06:50:59.842Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T06:51:05.790Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T06:51:11.516Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T06:51:14.485Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T06:51:18.840Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T06:51:23.339Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T06:51:26.800Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T06:54:43.553Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T06:54:47.437Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T06:55:04.272Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T06:55:06.717Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T06:55:16.261Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T06:59:18.431Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T07:00:09.722Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T07:00:51.368Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T07:01:15.758Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T07:01:20.393Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T07:01:38.060Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T07:01:46.690Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T07:08:22.619Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T07:08:41.826Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T07:08:44.449Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T07:08:47.618Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T07:08:51.435Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T07:08:53.341Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T07:08:56.745Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T07:08:59.451Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T07:09:40.390Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T07:09:51.120Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T07:10:00.150Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T07:10:04.325Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T07:10:06.928Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T07:10:30.506Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T07:10:33.872Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T07:10:47.170Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T07:11:09.369Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T07:11:12.097Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T07:11:18.728Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T07:11:57.330Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T07:11:59.599Z"}
+error: uncaughtException: Route.put() requires a callback function but got a [object Undefined]
+Error: Route.put() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as put] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\express\lib\router\route.js:216:15)
+    at Function.proto.<computed> [as put] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\express\lib\router\index.js:521:19)
+    at UserRoutes.routes (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\routes\user.route.ts:26:17)
+    at new UserRoutes (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\routes\user.route.ts:12:10)
+    at routes (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\routes\index.ts:16:24)
+    at App.initializeRoutes (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:52:52)
+    at new App (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:37:10)
+    at Object.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:78:13)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25) {"date":"Wed Jul 31 2024 12:42:09 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":4051},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":717109,"external":3897582,"heapTotal":55218176,"heapUsed":28670376,"rss":68575232},"pid":14824,"uid":null,"version":"v16.15.1"},"stack":"Error: Route.put() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as put] (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.proto.<computed> [as put] (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at UserRoutes.routes (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\user.route.ts:26:17)\n    at new UserRoutes (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\user.route.ts:12:10)\n    at routes (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\index.ts:16:24)\n    at App.initializeRoutes (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:52:52)\n    at new App (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:37:10)\n    at Object.<anonymous> (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:78:13)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)","timestamp":"2024-07-31T07:12:09.932Z","trace":[{"column":15,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as put]","line":216,"method":"<computed> [as put]","native":false},{"column":19,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as put]","line":521,"method":"<computed> [as put]","native":false},{"column":17,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\user.route.ts","function":"UserRoutes.routes","line":26,"method":"routes","native":false},{"column":10,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\user.route.ts","function":"new UserRoutes","line":12,"method":null,"native":false},{"column":24,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\index.ts","function":"routes","line":16,"method":null,"native":false},{"column":52,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":"new App","line":37,"method":null,"native":false},{"column":13,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":null,"line":78,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false}]}
+error: uncaughtException: Route.put() requires a callback function but got a [object Undefined]
+Error: Route.put() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as put] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\express\lib\router\route.js:216:15)
+    at Function.proto.<computed> [as put] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\express\lib\router\index.js:521:19)
+    at UserRoutes.routes (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\routes\user.route.ts:26:17)
+    at new UserRoutes (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\routes\user.route.ts:12:10)
+    at routes (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\routes\index.ts:16:24)
+    at App.initializeRoutes (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:52:52)
+    at new App (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:37:10)
+    at Object.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:78:13)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25) {"date":"Wed Jul 31 2024 12:42:20 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":4062},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":716353,"external":3890431,"heapTotal":55218176,"heapUsed":28740448,"rss":68411392},"pid":19956,"uid":null,"version":"v16.15.1"},"stack":"Error: Route.put() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as put] (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.proto.<computed> [as put] (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at UserRoutes.routes (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\user.route.ts:26:17)\n    at new UserRoutes (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\user.route.ts:12:10)\n    at routes (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\index.ts:16:24)\n    at App.initializeRoutes (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:52:52)\n    at new App (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:37:10)\n    at Object.<anonymous> (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:78:13)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)","timestamp":"2024-07-31T07:12:20.525Z","trace":[{"column":15,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as put]","line":216,"method":"<computed> [as put]","native":false},{"column":19,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as put]","line":521,"method":"<computed> [as put]","native":false},{"column":17,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\user.route.ts","function":"UserRoutes.routes","line":26,"method":"routes","native":false},{"column":10,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\user.route.ts","function":"new UserRoutes","line":12,"method":null,"native":false},{"column":24,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\index.ts","function":"routes","line":16,"method":null,"native":false},{"column":52,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":"new App","line":37,"method":null,"native":false},{"column":13,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":null,"line":78,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false}]}
+error: uncaughtException: Route.put() requires a callback function but got a [object Undefined]
+Error: Route.put() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as put] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\express\lib\router\route.js:216:15)
+    at Function.proto.<computed> [as put] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\express\lib\router\index.js:521:19)
+    at UserRoutes.routes (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\routes\user.route.ts:26:17)
+    at new UserRoutes (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\routes\user.route.ts:12:10)
+    at routes (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\routes\index.ts:16:24)
+    at App.initializeRoutes (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:52:52)
+    at new App (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:37:10)
+    at Object.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:78:13)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25) {"date":"Wed Jul 31 2024 12:42:25 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":4066},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":755745,"external":3900193,"heapTotal":54956032,"heapUsed":29408400,"rss":68608000},"pid":18412,"uid":null,"version":"v16.15.1"},"stack":"Error: Route.put() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as put] (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.proto.<computed> [as put] (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at UserRoutes.routes (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\user.route.ts:26:17)\n    at new UserRoutes (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\user.route.ts:12:10)\n    at routes (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\index.ts:16:24)\n    at App.initializeRoutes (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:52:52)\n    at new App (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:37:10)\n    at Object.<anonymous> (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:78:13)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)","timestamp":"2024-07-31T07:12:25.471Z","trace":[{"column":15,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as put]","line":216,"method":"<computed> [as put]","native":false},{"column":19,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as put]","line":521,"method":"<computed> [as put]","native":false},{"column":17,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\user.route.ts","function":"UserRoutes.routes","line":26,"method":"routes","native":false},{"column":10,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\user.route.ts","function":"new UserRoutes","line":12,"method":null,"native":false},{"column":24,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\index.ts","function":"routes","line":16,"method":null,"native":false},{"column":52,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":"new App","line":37,"method":null,"native":false},{"column":13,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":null,"line":78,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false}]}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T07:12:33.492Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T07:12:40.149Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T07:12:44.582Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T07:12:48.297Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T07:12:53.446Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/1 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-07-31T07:13:02.728Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T07:13:15.417Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least 8 characters long 
+    url - /api/v1/users/1 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-07-31T07:13:15.596Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T07:58:54.643Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T07:58:58.507Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T07:59:01.902Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T07:59:04.635Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T07:59:08.037Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T07:59:22.732Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T07:59:24.539Z"}
+error: uncaughtException: NoteValidator is not defined
+ReferenceError: NoteValidator is not defined
+    at new NoteRoutes (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\routes\notes.routes.ts:9:31)
+    at routes (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\routes\index.ts:18:24)
+    at App.initializeRoutes (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:52:52)
+    at new App (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:37:10)
+    at Object.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:78:13)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Sakhare Sohan\AppData\Local\Temp\ts-node-dev-hook-9261600333876274.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Sakhare Sohan\AppData\Local\Temp\ts-node-dev-hook-9261600333876274.js:114:20) {"date":"Wed Jul 31 2024 13:30:27 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":6948},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":721744,"external":3898552,"heapTotal":54956032,"heapUsed":28842200,"rss":68145152},"pid":11976,"uid":null,"version":"v16.15.1"},"stack":"ReferenceError: NoteValidator is not defined\n    at new NoteRoutes (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\notes.routes.ts:9:31)\n    at routes (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\index.ts:18:24)\n    at App.initializeRoutes (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:52:52)\n    at new App (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:37:10)\n    at Object.<anonymous> (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:78:13)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\Sakhare Sohan\\AppData\\Local\\Temp\\ts-node-dev-hook-9261600333876274.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\Sakhare Sohan\\AppData\\Local\\Temp\\ts-node-dev-hook-9261600333876274.js:114:20)","timestamp":"2024-07-31T08:00:27.141Z","trace":[{"column":31,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\notes.routes.ts","function":"new NoteRoutes","line":9,"method":null,"native":false},{"column":24,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\index.ts","function":"routes","line":18,"method":null,"native":false},{"column":52,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":"new App","line":37,"method":null,"native":false},{"column":13,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":null,"line":78,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\Sakhare Sohan\\AppData\\Local\\Temp\\ts-node-dev-hook-9261600333876274.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":20,"file":"C:\\Users\\Sakhare Sohan\\AppData\\Local\\Temp\\ts-node-dev-hook-9261600333876274.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false}]}
+error: uncaughtException: NoteValidator is not defined
+ReferenceError: NoteValidator is not defined
+    at new NoteRoutes (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\routes\notes.routes.ts:9:31)
+    at routes (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\routes\index.ts:18:24)
+    at App.initializeRoutes (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:52:52)
+    at new App (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:37:10)
+    at Object.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:78:13)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Sakhare Sohan\AppData\Local\Temp\ts-node-dev-hook-9261600333876274.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Sakhare Sohan\AppData\Local\Temp\ts-node-dev-hook-9261600333876274.js:114:20) {"date":"Wed Jul 31 2024 13:30:33 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":6955},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":715345,"external":3898540,"heapTotal":55218176,"heapUsed":28875984,"rss":68698112},"pid":11664,"uid":null,"version":"v16.15.1"},"stack":"ReferenceError: NoteValidator is not defined\n    at new NoteRoutes (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\notes.routes.ts:9:31)\n    at routes (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\index.ts:18:24)\n    at App.initializeRoutes (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:52:52)\n    at new App (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:37:10)\n    at Object.<anonymous> (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:78:13)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\Sakhare Sohan\\AppData\\Local\\Temp\\ts-node-dev-hook-9261600333876274.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\Sakhare Sohan\\AppData\\Local\\Temp\\ts-node-dev-hook-9261600333876274.js:114:20)","timestamp":"2024-07-31T08:00:33.895Z","trace":[{"column":31,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\notes.routes.ts","function":"new NoteRoutes","line":9,"method":null,"native":false},{"column":24,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\index.ts","function":"routes","line":18,"method":null,"native":false},{"column":52,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":"new App","line":37,"method":null,"native":false},{"column":13,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":null,"line":78,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\Sakhare Sohan\\AppData\\Local\\Temp\\ts-node-dev-hook-9261600333876274.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":20,"file":"C:\\Users\\Sakhare Sohan\\AppData\\Local\\Temp\\ts-node-dev-hook-9261600333876274.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false}]}
+error: uncaughtException: Route.post() requires a callback function but got a [object Object]
+Error: Route.post() requires a callback function but got a [object Object]
+    at Route.<computed> [as post] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\express\lib\router\route.js:216:15)
+    at Function.proto.<computed> [as post] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\express\lib\router\index.js:521:19)
+    at NoteRoutes.routes (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\routes\notes.routes.ts:17:17)
+    at new NoteRoutes (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\routes\notes.routes.ts:12:10)
+    at routes (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\routes\index.ts:18:24)
+    at App.initializeRoutes (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:52:52)
+    at new App (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:37:10)
+    at Object.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:78:13)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25) {"date":"Wed Jul 31 2024 13:30:40 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":6962},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":835497,"external":3893244,"heapTotal":55218176,"heapUsed":29801072,"rss":69488640},"pid":15852,"uid":null,"version":"v16.15.1"},"stack":"Error: Route.post() requires a callback function but got a [object Object]\n    at Route.<computed> [as post] (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.proto.<computed> [as post] (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at NoteRoutes.routes (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\notes.routes.ts:17:17)\n    at new NoteRoutes (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\notes.routes.ts:12:10)\n    at routes (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\index.ts:18:24)\n    at App.initializeRoutes (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:52:52)\n    at new App (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:37:10)\n    at Object.<anonymous> (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:78:13)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)","timestamp":"2024-07-31T08:00:40.692Z","trace":[{"column":15,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as post]","line":216,"method":"<computed> [as post]","native":false},{"column":19,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as post]","line":521,"method":"<computed> [as post]","native":false},{"column":17,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\notes.routes.ts","function":"NoteRoutes.routes","line":17,"method":"routes","native":false},{"column":10,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\notes.routes.ts","function":"new NoteRoutes","line":12,"method":null,"native":false},{"column":24,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\index.ts","function":"routes","line":18,"method":null,"native":false},{"column":52,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":"new App","line":37,"method":null,"native":false},{"column":13,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":null,"line":78,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false}]}
+error: uncaughtException: notes_validator_1.default is not a constructor
+TypeError: notes_validator_1.default is not a constructor
+    at new NoteRoutes (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\routes\notes.routes.ts:9:27)
+    at routes (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\routes\index.ts:18:24)
+    at App.initializeRoutes (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:52:52)
+    at new App (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:37:10)
+    at Object.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:78:13)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25)
+    at Module.m._compile (C:\Users\Sakhare Sohan\AppData\Local\Temp\ts-node-dev-hook-9261600333876274.js:69:33)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+    at require.extensions..jsx.require.extensions..js (C:\Users\Sakhare Sohan\AppData\Local\Temp\ts-node-dev-hook-9261600333876274.js:114:20) {"date":"Wed Jul 31 2024 13:30:47 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":6968},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":791209,"external":3906144,"heapTotal":54956032,"heapUsed":30395256,"rss":69873664},"pid":5456,"uid":null,"version":"v16.15.1"},"stack":"TypeError: notes_validator_1.default is not a constructor\n    at new NoteRoutes (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\notes.routes.ts:9:27)\n    at routes (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\index.ts:18:24)\n    at App.initializeRoutes (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:52:52)\n    at new App (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:37:10)\n    at Object.<anonymous> (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:78:13)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)\n    at Module.m._compile (C:\\Users\\Sakhare Sohan\\AppData\\Local\\Temp\\ts-node-dev-hook-9261600333876274.js:69:33)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n    at require.extensions..jsx.require.extensions..js (C:\\Users\\Sakhare Sohan\\AppData\\Local\\Temp\\ts-node-dev-hook-9261600333876274.js:114:20)","timestamp":"2024-07-31T08:00:47.445Z","trace":[{"column":27,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\notes.routes.ts","function":"new NoteRoutes","line":9,"method":null,"native":false},{"column":24,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\index.ts","function":"routes","line":18,"method":null,"native":false},{"column":52,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":"new App","line":37,"method":null,"native":false},{"column":13,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":null,"line":78,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false},{"column":33,"file":"C:\\Users\\Sakhare Sohan\\AppData\\Local\\Temp\\ts-node-dev-hook-9261600333876274.js","function":"Module.m._compile","line":69,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1159,"method":".js","native":false},{"column":20,"file":"C:\\Users\\Sakhare Sohan\\AppData\\Local\\Temp\\ts-node-dev-hook-9261600333876274.js","function":"require.extensions..jsx.require.extensions..js","line":114,"method":".js","native":false}]}
+error: uncaughtException: Route.post() requires a callback function but got a [object Object]
+Error: Route.post() requires a callback function but got a [object Object]
+    at Route.<computed> [as post] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\express\lib\router\route.js:216:15)
+    at Function.proto.<computed> [as post] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\express\lib\router\index.js:521:19)
+    at NoteRoutes.routes (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\routes\notes.routes.ts:17:17)
+    at new NoteRoutes (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\routes\notes.routes.ts:12:10)
+    at routes (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\routes\index.ts:18:24)
+    at App.initializeRoutes (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:52:52)
+    at new App (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:37:10)
+    at Object.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:78:13)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25) {"date":"Wed Jul 31 2024 13:31:18 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":6999},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":716800,"external":3900827,"heapTotal":54956032,"heapUsed":28606288,"rss":68857856},"pid":19944,"uid":null,"version":"v16.15.1"},"stack":"Error: Route.post() requires a callback function but got a [object Object]\n    at Route.<computed> [as post] (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\express\\lib\\router\\route.js:216:15)\n    at Function.proto.<computed> [as post] (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\express\\lib\\router\\index.js:521:19)\n    at NoteRoutes.routes (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\notes.routes.ts:17:17)\n    at new NoteRoutes (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\notes.routes.ts:12:10)\n    at routes (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\index.ts:18:24)\n    at App.initializeRoutes (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:52:52)\n    at new App (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:37:10)\n    at Object.<anonymous> (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:78:13)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)","timestamp":"2024-07-31T08:01:18.144Z","trace":[{"column":15,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as post]","line":216,"method":"<computed> [as post]","native":false},{"column":19,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as post]","line":521,"method":"<computed> [as post]","native":false},{"column":17,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\notes.routes.ts","function":"NoteRoutes.routes","line":17,"method":"routes","native":false},{"column":10,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\notes.routes.ts","function":"new NoteRoutes","line":12,"method":null,"native":false},{"column":24,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\routes\\index.ts","function":"routes","line":18,"method":null,"native":false},{"column":52,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":"App.initializeRoutes","line":52,"method":"initializeRoutes","native":false},{"column":10,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":"new App","line":37,"method":null,"native":false},{"column":13,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":null,"line":78,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false}]}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T08:01:30.641Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least 8 characters long 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-31T08:04:09.915Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" must only contain alpha-numeric characters 
+    url - /api/v1/users/1 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-07-31T08:05:16.950Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T08:11:16.570Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-31T08:11:51.430Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-31T08:12:02.369Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-31T08:20:49.814Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" must only contain alpha-numeric characters 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-31T08:21:01.146Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-31T08:21:08.424Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T08:21:44.792Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T08:21:51.584Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T08:21:53.356Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T08:27:09.277Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\middlewares\auth.middleware.ts:33:42
+    at Generator.next (<anonymous>)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\middlewares\auth.middleware.ts:22:20)
+    at Layer.handle [as handle_request] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-31T08:30:28.760Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T08:35:09.635Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T08:35:15.192Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T08:36:00.577Z"}
+error: 
+    status - 500 
+    message - Error: Error updating note with ID NaN: invalid input syntax for type integer: "NaN"
+    at NotesServices.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\services\notes.service.ts:50:13)
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\services\notes.service.ts:29:65)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/update 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-31T08:36:04.604Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T08:36:59.251Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T08:37:04.766Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T08:37:07.074Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T08:37:08.892Z"}
+error: 
+    status - 500 
+    message - Error: Error updating note with ID 1: No note found with ID 1 to update
+    at NotesServices.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\services\notes.service.ts:50:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\services\notes.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/update 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-31T08:37:11.789Z"}
+error: 
+    status - 500 
+    message - Error: Error updating note with ID 1: No note found with ID 1 to update
+    at NotesServices.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\services\notes.service.ts:50:13)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\services\notes.service.ts:28:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/notes/update 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-31T08:37:18.449Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T08:37:49.870Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T10:24:16.313Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T10:24:18.467Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T10:24:23.992Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T10:24:25.072Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T10:24:28.840Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T10:24:29.864Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T10:24:32.691Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T10:24:36.449Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T10:25:38.443Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T10:25:41.670Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T10:25:51.372Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\middlewares\auth.middleware.ts:33:42
+    at Generator.next (<anonymous>)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\middlewares\auth.middleware.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\middlewares\auth.middleware.ts:4:12)
+    at userAuth (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\middlewares\auth.middleware.ts:22:20)
+    at Layer.handle [as handle_request] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\express\lib\router\layer.js:95:5) 
+    url - /api/v1/notes/update 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-07-31T10:26:10.954Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T10:28:17.273Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T12:02:14.277Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T12:02:21.727Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T12:02:24.690Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-07-31T12:02:29.859Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T05:56:41.678Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T05:57:39.418Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T05:57:55.304Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T05:59:38.059Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:01:14.420Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:01:17.030Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:06:04.032Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:09:12.118Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:16:36.625Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:19:38.802Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:19:43.639Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:19:47.948Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:19:50.244Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:38:12.943Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:38:16.396Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:38:44.547Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:38:47.381Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:39:52.802Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:39:55.897Z"}
+error: 
+    status - 500 
+    message - ValidationError: "dob" must be a valid date 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T06:41:10.680Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:43:43.499Z"}

@@ -1,7 +1,6 @@
 'use strict';
 import { Model } from 'sequelize';
 
-
 export default (sequelize, DataTypes) => {
     class Notes extends Model {
         public title: string;

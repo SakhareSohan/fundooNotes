@@ -1,10 +1,12 @@
 import express, { IRouter } from 'express';
 import notesController from '../controllers/notes.controller';
 import { userAuth } from '../middlewares/auth.middleware';
+import NoteValidator from '../validators/notes.validator';
 
-class UserRoutes {
+class NoteRoutes {
   private NotesController = new notesController();
   private router = express.Router();
+  private noteValidator = new NoteValidator();
 
   constructor() {
     this.routes();
@@ -12,7 +14,7 @@ class UserRoutes {
 
   private routes = () => { 
     
-    this.router.post('/update', userAuth, this.NotesController.updateNote);
+    this.router.post('/update', this.noteValidator.updateNote, userAuth, this.NotesController.updateNote);
     
     this.router.post('/create', userAuth, this.NotesController.createNote);
 
@@ -33,4 +35,4 @@ class UserRoutes {
   };
 }
 
-export default UserRoutes;
+export default NoteRoutes;

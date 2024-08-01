@@ -8,15 +8,7 @@ import { Request, Response, NextFunction } from 'express';
 
 class UserController {
   public UserService = new userService();
-/*
-getAllNotes
-getNotes
-createNote
-updateNote
-archiveNote
-trashNote
-deleteNote
-*/
+
   /**
    * Controller to create new user
    * @param  {object} Request - request object
@@ -122,28 +114,28 @@ deleteNote
 //     }
 //   };
 
-//   /**
-//    * Controller to update a user
-//    * @param  {object} Request - request object
-//    * @param {object} Response - response object
-//    * @param {Function} NextFunction
-//    */
-//   public updateUser = async (
-//     req: Request,
-//     res: Response,
-//     next: NextFunction
-//   ): Promise<any> => {
-//     try {
-//       const data = await this.UserService.updateUser(req.params.id, req.body);
-//       res.status(HttpStatus.ACCEPTED).json({
-//         code: HttpStatus.ACCEPTED,
-//         data: data,
-//         message: 'User updated successfully'
-//       });
-//     } catch (error) {
-//       next(error);
-//     }
-//   };
+  /**
+   * Controller to update a user
+   * @param  {object} Request - request object
+   * @param {object} Response - response object
+   * @param {Function} NextFunction
+   */
+  public updateUser = async (
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ): Promise<any> => {
+    try {
+      const data = await this.UserService.updateUser(req.params.id, req.body);
+      res.status(HttpStatus.ACCEPTED).json({
+        code: HttpStatus.ACCEPTED,
+        data: data,
+        message: 'User updated successfully'
+      });
+    } catch (error) {
+      next(error);
+    }
+  };
 
 //   /**
 //    * Controller to delete a user

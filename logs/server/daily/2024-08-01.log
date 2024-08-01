@@ -1,0 +1,27 @@
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T05:56:41.678Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T05:57:39.418Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T05:57:55.304Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T05:59:38.059Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:01:14.420Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:01:17.030Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:06:04.032Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:09:12.118Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:16:36.625Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:19:38.802Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:19:43.639Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:19:47.948Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:19:50.244Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:38:12.943Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:38:16.396Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:38:44.547Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:38:47.381Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:39:52.802Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:39:55.897Z"}
+error: 
+    status - 500 
+    message - ValidationError: "dob" must be a valid date 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T06:41:10.680Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:43:43.499Z"}

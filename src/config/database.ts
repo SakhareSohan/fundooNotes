@@ -23,7 +23,6 @@ if (process.env.NODE_ENV === 'test') {
   HOST = config.test.host;
   PORT = parseInt(config.test.port);
 }
-
 const sequelize = new Sequelize(DATABASE, USERNAME, PASSWORD, {
   host: HOST,
   port: PORT,
@@ -47,6 +46,6 @@ sequelize
     // logger.error('Could not connect to the database.', error);
   });
 
-sequelize.sync()
+sequelize.sync();
 
 export default sequelize;

@@ -9,9 +9,11 @@ import noteRoute from './notes.routes';
  * @returns router
  */
 const routes = (): IRouter => {
+  
   router.get('/', (req, res) => {
     res.json('Welcome');
   });
+  
   router.use('/users', new userRoute().getRoutes());
 
   router.use('/notes', new noteRoute().getRoutes());
