@@ -44,7 +44,7 @@ class UserController {
     next: NextFunction
   ): Promise<any> => {
     try {
-      const data = await this.NoteService.createNote(req.body);
+      const data = await this.NoteService.createNote(req.body, (req as any).id);
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: data,

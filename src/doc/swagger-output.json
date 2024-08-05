@@ -1,14 +1,12 @@
 {
-  "openapi": "3.1.0",
+  "openapi": "3.0.3",
   "info": {
-    "title": "My API",
-    "description": "Description",
+    "title": "Fundoo Notes",
     "version": "1.0.0"
   },
   "servers": [
     {
-      "url": "http://localhost:3000/api/v1/",
-      "description": "Local server"
+      "url": "http://localhost:3000/api/v1/"
     }
   ],
   "tags": [
@@ -26,234 +24,661 @@
     }
   ],
   "paths": {
-    "/test": {
-      "get": {
-        "description": "",
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/${this.api_version}/": {
-      "get": {
-        "description": "",
-        "parameters": [
-          {
-            "name": "this.api_version",
-            "in": "path",
-            "required": true,
-            "type": "string"
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
     "/": {
       "get": {
-        "description": "",
+        "summary": "Default Application Page",
+        "operationId": "analyse",
+        "description": "Check if the application is available",
+        "tags": [
+          "Default"
+        ],
+        "requestBody": {
+          "description": "Nothing  can be received"
+        },
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "Welcome"
           }
         }
       }
     },
-    "/signup": {
+    "/users/signup/": {
       "post": {
-        "description": "",
-        "responses": {
-          "default": {
-            "description": ""
-          }
-        }
-      }
-    },
-    "/login": {
-      "post": {
-        "description": "",
-        "responses": {
-          "default": {
-            "description": ""
-          }
-        }
-      }
-    },
-    "/{id}": {
-      "get": {
-        "description": "",
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "type": "string"
-          },
-          {
-            "name": "Authorization",
-            "in": "header",
-            "type": "string"
-          }
+        "summary": "User Registration",
+        "operationId": "register user",
+        "description": "User is Created",
+        "tags": [
+          "User"
         ],
+        "requestBody": {
+          "description": "Enter user details but names, mobile number, email and password are manditory.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "firstName": {
+                    "type": "string",
+                    "description": "The user's first name"
+                  },
+                  "lastName": {
+                    "type": "string",
+                    "description": "The user's last name"
+                  },
+                  "email": {
+                    "type": "string",
+                    "description": "The user's email"
+                  },
+                  "password": {
+                    "type": "string",
+                    "description": "The user's password"
+                  },
+                  "mobileNo": {
+                    "type": "string",
+                    "description": "The user's mobile number"
+                  },
+                  "dob": {
+                    "type": "date",
+                    "description": "The user's date of birth"
+                  },
+                  "gender": {
+                    "type": "string",
+                    "description": "The user's gender"
+                  }
+                },
+                "required": [
+                  "firstName", 
+                  "lastName", 
+                  "email",
+                  "password",
+                  "mobileNo"
+                ]
+              }
+            }
+          },
+          "required": true
+        },
         "responses": {
-          "default": {
-            "description": ""
+          "200": {
+            "description": "User Created",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "description": "The analysis result (malicious, benign, etc.)"
+                    },
+                    "details": {
+                      "type": "object",
+                      "properties": {
+                        "hashes": {
+                          "type": "object",
+                          "properties": {
+                            "bcrypt": {
+                              "type": "string",
+                              "description": "hash of user password"
+                            }
+                          }
+                        },
+                        "analysis-time": {
+                          "type": "string",
+                          "description": "Time taken for the analysis engine to analyse the binary"
+                        },
+                        "suspicious-ifunc-resolvers": {
+                          "type": "array",
+                          "description": "List of IFUNC resolvers marked as suspicious",
+                          "items": {
+                            "type": "number",
+                            "description": "Suspicious IFUNC resolver"
+                          }
+                        },
+                        "potential-triggers": {
+                          "type": "array",
+                          "description": "List of addresses marked as likely places to where the backdoor payload is triggered",
+                          "items": {
+                            "type": "number"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
           }
         }
-      },
+      }
+    },
+    "/users/login/": {
+      "post": {
+        "summary": "User login",
+        "operationId": "Analysis Sign",
+        "description": "User is authenticated",
+        "tags": [
+          "User"
+        ],
+        "requestBody": {
+          "description": "email and password of the user",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "email": {
+                    "type": "string",
+                    "description": "The user's email"
+                  },
+                  "password": {
+                    "type": "string",
+                    "description": "The user's password"
+                  }
+                },
+                "required": [
+                  "email",
+                  "password"
+                ]
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Login result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "description": "The analysis result (malicious, benign, etc.)"
+                    },
+                    "details": {
+                      "type": "object",
+                      "properties": {
+                        "hashes": {
+                          "type": "object",
+                          "properties": {
+                            "bcrypt": {
+                              "type": "string",
+                              "description": "hash of the user input"
+                            }
+                          }
+                        },
+                        "analysis-time": {
+                          "type": "string",
+                          "description": "Time taken for the analysis engine to analyse the binary"
+                        },
+                        "suspicious-ifunc-resolvers": {
+                          "type": "array",
+                          "description": "List of IFUNC resolvers marked as suspicious",
+                          "items": {
+                            "type": "number",
+                            "description": "Suspicious IFUNC resolver"
+                          }
+                        },
+                        "potential-triggers": {
+                          "type": "array",
+                          "description": "List of addresses marked as likely places to where the backdoor payload is triggered",
+                          "items": {
+                            "type": "number"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/notes/create/": {
+      "post": {
+        "summary": "Creates new Notes",
+        "operationId": "Creation",
+        "description": "Creation of user using token",
+        "tags": [
+          "Notes"
+        ],
+        "requestBody": {
+          "description": "ELF binary to analyse",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "title": {
+                    "type": "string",
+                    "description": "title of note"
+                  },
+                  "description": {
+                    "type": "string",
+                    "description": "description of note"
+                  },
+                  "color": {
+                    "type": "string",
+                    "description": "color of note"
+                  },
+                  "createdBy": {
+                    "type": "number",
+                    "description": "title of note"
+                  }
+                },
+                "required": [
+                  "createdBy"
+                ]
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Note created successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "description": "The analysis result (malicious, benign, etc.)"
+                    },
+                    "details": {
+                      "type": "object",
+                      "properties": {
+                        "analysis-time": {
+                          "type": "string",
+                          "description": "Time taken for the analysis engine to analyse the binary"
+                        },
+                        "suspicious-ifunc-resolvers": {
+                          "type": "array",
+                          "description": "List of IFUNC resolvers marked as suspicious",
+                          "items": {
+                            "type": "number",
+                            "description": "Suspicious IFUNC resolver"
+                          }
+                        },
+                        "potential-triggers": {
+                          "type": "array",
+                          "description": "List of addresses marked as likely places to where the backdoor payload is triggered",
+                          "items": {
+                            "type": "number"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/notes/update/": {
       "put": {
-        "description": "",
-        "responses": {
-          "default": {
-            "description": ""
-          }
-        }
-      }
-    },
-    "/update": {
-      "post": {
-        "description": "",
-        "parameters": [
-          {
-            "name": "Authorization",
-            "in": "header",
-            "type": "string"
-          }
+        "summary": "Updates new Notes",
+        "operationId": "Updation",
+        "description": "Updation of user notes using token",
+        "tags": [
+          "Notes"
         ],
+        "requestBody": {
+          "description": "ELF binary to analyse",
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "title": {
+                    "type": "string",
+                    "description": "title of note"
+                  },
+                  "description": {
+                    "type": "string",
+                    "description": "description of note"
+                  },
+                  "color": {
+                    "type": "string",
+                    "description": "color of note"
+                  }
+                }
+              }
+            }
+          },
+          "required": true
+        },
         "responses": {
-          "default": {
-            "description": ""
+          "200": {
+            "description": "Note updated result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "description": "The analysis result (malicious, benign, etc.)"
+                    },
+                    "details": {
+                      "type": "object",
+                      "properties": {
+                        
+                        "analysis-time": {
+                          "type": "string",
+                          "description": "Time taken for the analysis engine to analyse the binary"
+                        },
+                        "suspicious-ifunc-resolvers": {
+                          "type": "array",
+                          "description": "List of IFUNC resolvers marked as suspicious",
+                          "items": {
+                            "type": "number",
+                            "description": "Suspicious IFUNC resolver"
+                          }
+                        },
+                        "potential-triggers": {
+                          "type": "array",
+                          "description": "List of addresses marked as likely places to where the backdoor payload is triggered",
+                          "items": {
+                            "type": "number"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
           }
         }
       }
     },
-    "/create": {
-      "post": {
-        "description": "",
-        "parameters": [
-          {
-            "name": "Authorization",
-            "in": "header",
-            "type": "string"
-          }
-        ],
-        "responses": {
-          "default": {
-            "description": ""
-          }
-        }
-      }
-    },
-    "/allNotes": {
+    "/notes/allNotes/": {
       "get": {
-        "description": "",
-        "parameters": [
-          {
-            "name": "Authorization",
-            "in": "header",
-            "type": "string"
-          }
+        "summary": "Fetches all notes of user",
+        "operationId": "Fetching",
+        "description": "Fetching of user notes using token",
+        "tags": [
+          "Notes"
         ],
+        "requestBody": {
+          "description": "token required for fetching notes"
+          
+        },
         "responses": {
-          "default": {
-            "description": ""
+          "200": {
+            "description": "Analysis result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "description": "The analysis result (malicious, benign, etc.)"
+                    },
+                    "details": {
+                      "type": "object",
+                      "properties": {
+                        
+                        "analysis-time": {
+                          "type": "string",
+                          "description": "Time taken for the analysis engine to analyse the binary"
+                        },
+                        "suspicious-ifunc-resolvers": {
+                          "type": "array",
+                          "description": "List of IFUNC resolvers marked as suspicious",
+                          "items": {
+                            "type": "number",
+                            "description": "Suspicious IFUNC resolver"
+                          }
+                        },
+                        "potential-triggers": {
+                          "type": "array",
+                          "description": "List of addresses marked as likely places to where the backdoor payload is triggered",
+                          "items": {
+                            "type": "number"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
           }
         }
       }
     },
-    "/getNote/{id}": {
+    "/notes/getNote/{id}": {
       "get": {
-        "description": "",
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "type": "string"
-          },
-          {
-            "name": "Authorization",
-            "in": "header",
-            "type": "string"
-          }
+        "summary": "gets specific note",
+        "operationId": "retrival",
+        "description": "retrives user specific note",
+        "tags": [
+          "Notes"
         ],
+        "requestBody": {
+          "description": "params with tokken needs to be sent"
+        },
         "responses": {
-          "default": {
-            "description": ""
+          "200": {
+            "description": "Note result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "description": "The analysis result (malicious, benign, etc.)"
+                    },
+                    "details": {
+                      "type": "object",
+                      "properties": {
+                        
+                        "analysis-time": {
+                          "type": "string",
+                          "description": "Time taken for the analysis engine to analyse the binary"
+                        },
+                        "suspicious-ifunc-resolvers": {
+                          "type": "array",
+                          "description": "List of IFUNC resolvers marked as suspicious",
+                          "items": {
+                            "type": "number",
+                            "description": "Suspicious IFUNC resolver"
+                          }
+                        },
+                        "potential-triggers": {
+                          "type": "array",
+                          "description": "List of addresses marked as likely places to where the backdoor payload is triggered",
+                          "items": {
+                            "type": "number"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
           }
         }
       }
     },
-    "/archive/{id}": {
+    "/notes/archive/{id}": {
       "post": {
-        "description": "",
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "type": "string"
-          },
-          {
-            "name": "Authorization",
-            "in": "header",
-            "type": "string"
-          }
+        "summary": "archive selected note",
+        "operationId": "archiving",
+        "description": "archiving user specific note",
+        "tags": [
+          "Notes"
         ],
+        "requestBody": {
+          "description": "params with tokken needs to be sent"
+          
+        },
         "responses": {
-          "default": {
-            "description": ""
+          "200": {
+            "description": "Analysis result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "description": "The analysis result (malicious, benign, etc.)"
+                    },
+                    "details": {
+                      "type": "object",
+                      "properties": {
+                       
+                        "analysis-time": {
+                          "type": "string",
+                          "description": "Time taken for the analysis engine to analyse the binary"
+                        },
+                        "suspicious-ifunc-resolvers": {
+                          "type": "array",
+                          "description": "List of IFUNC resolvers marked as suspicious",
+                          "items": {
+                            "type": "number",
+                            "description": "Suspicious IFUNC resolver"
+                          }
+                        },
+                        "potential-triggers": {
+                          "type": "array",
+                          "description": "List of addresses marked as likely places to where the backdoor payload is triggered",
+                          "items": {
+                            "type": "number"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
           }
         }
       }
     },
-    "/trash/{id}": {
+    "/notes/trash/{id}": {
       "post": {
-        "description": "",
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "type": "string"
-          },
-          {
-            "name": "Authorization",
-            "in": "header",
-            "type": "string"
-          }
+        "summary": "trash user specific note",
+        "operationId": "trashing",
+        "description": "trashing of user note using token",
+        "tags": [
+          "Notes"
         ],
+        "requestBody": {
+          "description": "params with tokken needs to be sent"
+          
+        },
         "responses": {
-          "default": {
-            "description": ""
+          "200": {
+            "description": "Analysis result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "description": "The analysis result (malicious, benign, etc.)"
+                    },
+                    "details": {
+                      "type": "object",
+                      "properties": {
+                        
+                        "analysis-time": {
+                          "type": "string",
+                          "description": "Time taken for the analysis engine to analyse the binary"
+                        },
+                        "suspicious-ifunc-resolvers": {
+                          "type": "array",
+                          "description": "List of IFUNC resolvers marked as suspicious",
+                          "items": {
+                            "type": "number",
+                            "description": "Suspicious IFUNC resolver"
+                          }
+                        },
+                        "potential-triggers": {
+                          "type": "array",
+                          "description": "List of addresses marked as likely places to where the backdoor payload is triggered",
+                          "items": {
+                            "type": "number"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
           }
         }
       }
     },
-    "/delete/{id}": {
+    "/notes/delete/{id}": {
       "post": {
-        "description": "",
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "type": "string"
-          },
-          {
-            "name": "Authorization",
-            "in": "header",
-            "type": "string"
-          }
+        "summary": "deleting user specific note",
+        "operationId": "deletion",
+        "description": "deletion of user note using token",
+        "tags": [
+          "Notes"
         ],
+        "requestBody": {
+          "description": "params with tokken needs to be sent"
+          
+        },
         "responses": {
-          "default": {
-            "description": ""
+          "200": {
+            "description": "Analysis result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string",
+                      "description": "The analysis result (malicious, benign, etc.)"
+                    },
+                    "details": {
+                      "type": "object",
+                      "properties": {
+                      
+                        "analysis-time": {
+                          "type": "string",
+                          "description": "Time taken for the analysis engine to analyse the binary"
+                        },
+                        "suspicious-ifunc-resolvers": {
+                          "type": "array",
+                          "description": "List of IFUNC resolvers marked as suspicious",
+                          "items": {
+                            "type": "number",
+                            "description": "Suspicious IFUNC resolver"
+                          }
+                        },
+                        "potential-triggers": {
+                          "type": "array",
+                          "description": "List of addresses marked as likely places to where the backdoor payload is triggered",
+                          "items": {
+                            "type": "number"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
           }
         }
       }

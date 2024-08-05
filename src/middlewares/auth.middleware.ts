@@ -22,7 +22,6 @@ export const userAuth = async (
 ): Promise<void> => {
   try {
     let bearerToken = req.header('Authorization');
-    console.log(bearerToken);
     if (!bearerToken)
       throw {
         code: HttpStatus.BAD_REQUEST,

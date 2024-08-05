@@ -25,9 +25,10 @@ class NotesServices {
     }
   }
 
-  public createNote = async (body: any): Promise<any> => {
+  public createNote = async (body: any, id: number): Promise<any> => {
     try {
       console.log('inside note services create notes');
+      body.createdBy = id;
       const data = await this.Note.create(body);
       return data;
     } catch (error) {

@@ -25,3 +25,488 @@ error:
     IP - ::1
    {"timestamp":"2024-08-01T06:41:10.680Z"}
 info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T06:43:43.499Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:34:08.373Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:35:29.457Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:35:32.611Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:35:35.171Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:35:47.752Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:36:13.881Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:36:18.700Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:36:39.874Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:36:45.199Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:36:50.646Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:36:56.804Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:37:03.360Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:37:09.326Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:38:10.278Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:38:16.261Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:38:23.708Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:38:51.559Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:39:59.089Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:41:24.710Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:41:27.657Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:43:06.107Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:43:08.833Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:44:26.212Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:44:29.880Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:44:54.827Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:46:48.349Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:46:51.387Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:46:54.637Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:46:55.861Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:46:59.407Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:47:04.962Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:47:09.968Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:47:13.119Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:47:14.885Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:47:20.616Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:47:24.005Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:56:11.248Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:56:39.395Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:56:44.962Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:56:49.438Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:56:54.609Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:56:59.101Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:57:05.334Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:57:09.116Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:57:13.034Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:57:18.972Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:57:36.663Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:57:40.394Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:57:47.433Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:57:52.659Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:57:55.296Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:57:58.145Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:58:24.591Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:58:26.350Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:58:32.788Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:58:37.902Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:58:44.441Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:58:53.848Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:58:59.519Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:59:01.337Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:59:05.847Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:59:14.808Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:59:26.128Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:59:35.913Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:59:39.972Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:59:49.810Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T09:59:54.816Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:00:17.131Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:00:29.852Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:00:34.106Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:00:37.415Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:00:42.001Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:00:47.145Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:00:58.755Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:01:00.643Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:01:16.237Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:01:26.997Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:01:32.731Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:01:53.582Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:02:06.659Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:02:13.326Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:04:25.636Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 162
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:04:46.830Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:04:53.792Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:05:05.353Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:05:51.355Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:06:05.497Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:06:21.802Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:06:24.708Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:06:25.906Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:06:27.239Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:06:52.766Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:07:35.738Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:07:42.304Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:08:27.079Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:08:34.530Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:09:07.832Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:09:38.594Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 134
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/signup/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:09:46.342Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 135
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/signup/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:09:59.223Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:11:51.784Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:12:46.446Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:13:08.564Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:13:41.276Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:14:06.253Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:14:58.947Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:19:26.226Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:19:42.184Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:19:54.882Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 69
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/signup/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:23:16.836Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" is required 
+    url - /api/v1/users/signup/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:23:50.614Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" is required 
+    url - /api/v1/users/signup/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:24:02.343Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/signup/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:24:12.273Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 79
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/signup/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:24:35.030Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:26:06.132Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:28:42.801Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:28:48.054Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:28:50.893Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:29:09.143Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:29:11.154Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:29:31.940Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:29:33.627Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:29:59.510Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:30:02.224Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:30:11.249Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:30:19.490Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:30:28.535Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:30:39.155Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:30:44.314Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:30:47.353Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:30:50.922Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:30:58.261Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:31:02.843Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:31:05.253Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:31:09.220Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:31:17.482Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:31:25.105Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:31:29.462Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:31:32.816Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:31:41.614Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:32:04.170Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:32:06.248Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:32:12.564Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:32:16.793Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:32:20.028Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:33:40.696Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:33:54.932Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:34:02.587Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:34:12.215Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:34:13.414Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:34:36.813Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:34:41.519Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:35:08.083Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:35:25.854Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:35:31.856Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:35:46.008Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:35:47.266Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:35:54.183Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:36:07.343Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:36:44.846Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:36:54.156Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:36:57.907Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:36:58.928Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:37:30.917Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:37:42.189Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:37:50.317Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:38:16.701Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:38:18.225Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:38:28.373Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:38:37.140Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:38:41.666Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:38:45.868Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:38:58.733Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:39:13.152Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:39:14.337Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:39:31.454Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:39:36.289Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:39:50.770Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:39:58.900Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:40:08.250Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:40:15.796Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:40:18.633Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:40:27.020Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T10:40:36.593Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-01T11:56:40.259Z"}

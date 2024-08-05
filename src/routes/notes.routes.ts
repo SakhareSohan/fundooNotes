@@ -14,13 +14,13 @@ class NoteRoutes {
 
   private routes = () => { 
     
-    this.router.post('/update', this.noteValidator.updateNote, userAuth, this.NotesController.updateNote);
+    this.router.put('/update', userAuth, this.noteValidator.updateNote, this.NotesController.updateNote);
     
     this.router.post('/create', userAuth, this.NotesController.createNote);
 
-    this.router.get('/allNotes',userAuth, this.NotesController.getAllNotes);
+    this.router.get('/allNotes', userAuth, this.NotesController.getAllNotes);
 
-    this.router.get('/getNote/:id',userAuth, this.NotesController.getNote);
+    this.router.get('/getNote/:id', userAuth, this.NotesController.getNote);
 
     this.router.post('/archive/:id', userAuth, this.NotesController.archiveNote);
 

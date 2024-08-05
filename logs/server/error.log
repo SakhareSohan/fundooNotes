@@ -2004,3 +2004,633 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2024-08-01T06:41:10.680Z"}
+error: uncaughtException: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected token / in JSON at position 755
+SyntaxError: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected token / in JSON at position 755
+    at parse (<anonymous>)
+    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)
+    at Object.nodeDevHook [as .json] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:18:25)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25) {"date":"Thu Aug 01 2024 15:11:10 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":99392},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":747855,"external":3930249,"heapTotal":54956032,"heapUsed":28476280,"rss":67686400},"pid":18052,"uid":null,"version":"v16.15.1"},"stack":"SyntaxError: C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\doc\\swagger-output.json: Unexpected token / in JSON at position 755\n    at parse (<anonymous>)\n    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)\n    at Object.nodeDevHook [as .json] (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:18:25)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)","timestamp":"2024-08-01T09:41:10.595Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..json","line":1173,"method":".json","native":false},{"column":13,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .json]","line":63,"method":"json]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":null,"line":18,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false}]}
+error: uncaughtException: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected token / in JSON at position 754
+SyntaxError: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected token / in JSON at position 754
+    at parse (<anonymous>)
+    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)
+    at Object.nodeDevHook [as .json] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:18:25)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25) {"date":"Thu Aug 01 2024 15:11:14 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":99396},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":755009,"external":3937403,"heapTotal":54956032,"heapUsed":28334232,"rss":67575808},"pid":10828,"uid":null,"version":"v16.15.1"},"stack":"SyntaxError: C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\doc\\swagger-output.json: Unexpected token / in JSON at position 754\n    at parse (<anonymous>)\n    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)\n    at Object.nodeDevHook [as .json] (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:18:25)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)","timestamp":"2024-08-01T09:41:14.931Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..json","line":1173,"method":".json","native":false},{"column":13,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .json]","line":63,"method":"json]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":null,"line":18,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false}]}
+error: uncaughtException: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected token } in JSON at position 868
+SyntaxError: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected token } in JSON at position 868
+    at parse (<anonymous>)
+    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)
+    at Object.nodeDevHook [as .json] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:18:25)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25) {"date":"Thu Aug 01 2024 15:13:02 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":99503},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":743140,"external":3927327,"heapTotal":54956032,"heapUsed":28153928,"rss":67653632},"pid":8328,"uid":null,"version":"v16.15.1"},"stack":"SyntaxError: C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\doc\\swagger-output.json: Unexpected token } in JSON at position 868\n    at parse (<anonymous>)\n    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)\n    at Object.nodeDevHook [as .json] (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:18:25)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)","timestamp":"2024-08-01T09:43:02.196Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..json","line":1173,"method":".json","native":false},{"column":13,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .json]","line":63,"method":"json]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":null,"line":18,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false}]}
+error: uncaughtException: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected string in JSON at position 1531
+SyntaxError: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected string in JSON at position 1531
+    at parse (<anonymous>)
+    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)
+    at Object.nodeDevHook [as .json] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:18:25)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25) {"date":"Thu Aug 01 2024 15:16:42 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":99723},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":743853,"external":3934439,"heapTotal":54956032,"heapUsed":28386112,"rss":67313664},"pid":15532,"uid":null,"version":"v16.15.1"},"stack":"SyntaxError: C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\doc\\swagger-output.json: Unexpected string in JSON at position 1531\n    at parse (<anonymous>)\n    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)\n    at Object.nodeDevHook [as .json] (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:18:25)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)","timestamp":"2024-08-01T09:46:42.352Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..json","line":1173,"method":".json","native":false},{"column":13,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .json]","line":63,"method":"json]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":null,"line":18,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false}]}
+error: uncaughtException: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected token } in JSON at position 1490
+SyntaxError: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected token } in JSON at position 1490
+    at parse (<anonymous>)
+    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)
+    at Object.nodeDevHook [as .json] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:18:25)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25) {"date":"Thu Aug 01 2024 15:26:50 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":100332},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":737349,"external":3927934,"heapTotal":55218176,"heapUsed":28317440,"rss":67870720},"pid":7252,"uid":null,"version":"v16.15.1"},"stack":"SyntaxError: C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\doc\\swagger-output.json: Unexpected token } in JSON at position 1490\n    at parse (<anonymous>)\n    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)\n    at Object.nodeDevHook [as .json] (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:18:25)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)","timestamp":"2024-08-01T09:56:50.674Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..json","line":1173,"method":".json","native":false},{"column":13,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .json]","line":63,"method":"json]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":null,"line":18,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false}]}
+error: uncaughtException: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected token } in JSON at position 1963
+SyntaxError: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected token } in JSON at position 1963
+    at parse (<anonymous>)
+    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)
+    at Object.nodeDevHook [as .json] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:18:25)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25) {"date":"Thu Aug 01 2024 15:27:43 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":100384},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":752247,"external":3928241,"heapTotal":54956032,"heapUsed":28303968,"rss":67497984},"pid":14288,"uid":null,"version":"v16.15.1"},"stack":"SyntaxError: C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\doc\\swagger-output.json: Unexpected token } in JSON at position 1963\n    at parse (<anonymous>)\n    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)\n    at Object.nodeDevHook [as .json] (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:18:25)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)","timestamp":"2024-08-01T09:57:43.504Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..json","line":1173,"method":".json","native":false},{"column":13,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .json]","line":63,"method":"json]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":null,"line":18,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false}]}
+error: uncaughtException: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected token } in JSON at position 2089
+SyntaxError: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected token } in JSON at position 2089
+    at parse (<anonymous>)
+    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)
+    at Object.nodeDevHook [as .json] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:18:25)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25) {"date":"Thu Aug 01 2024 15:28:20 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":100422},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":745974,"external":3928367,"heapTotal":54956032,"heapUsed":28240024,"rss":67493888},"pid":15568,"uid":null,"version":"v16.15.1"},"stack":"SyntaxError: C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\doc\\swagger-output.json: Unexpected token } in JSON at position 2089\n    at parse (<anonymous>)\n    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)\n    at Object.nodeDevHook [as .json] (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:18:25)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)","timestamp":"2024-08-01T09:58:20.665Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..json","line":1173,"method":".json","native":false},{"column":13,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .json]","line":63,"method":"json]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":null,"line":18,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false}]}
+error: uncaughtException: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected token } in JSON at position 2248
+SyntaxError: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected token } in JSON at position 2248
+    at parse (<anonymous>)
+    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)
+    at Object.nodeDevHook [as .json] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:18:25)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25) {"date":"Thu Aug 01 2024 15:28:28 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":100430},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":752532,"external":3928526,"heapTotal":54956032,"heapUsed":28316392,"rss":67727360},"pid":1948,"uid":null,"version":"v16.15.1"},"stack":"SyntaxError: C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\doc\\swagger-output.json: Unexpected token } in JSON at position 2248\n    at parse (<anonymous>)\n    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)\n    at Object.nodeDevHook [as .json] (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:18:25)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)","timestamp":"2024-08-01T09:58:28.871Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..json","line":1173,"method":".json","native":false},{"column":13,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .json]","line":63,"method":"json]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":null,"line":18,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false}]}
+error: uncaughtException: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected string in JSON at position 2461
+SyntaxError: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected string in JSON at position 2461
+    at parse (<anonymous>)
+    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)
+    at Object.nodeDevHook [as .json] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:18:25)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25) {"date":"Thu Aug 01 2024 15:29:28 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":100489},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":752693,"external":3928688,"heapTotal":54693888,"heapUsed":28337912,"rss":67309568},"pid":6460,"uid":null,"version":"v16.15.1"},"stack":"SyntaxError: C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\doc\\swagger-output.json: Unexpected string in JSON at position 2461\n    at parse (<anonymous>)\n    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)\n    at Object.nodeDevHook [as .json] (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:18:25)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)","timestamp":"2024-08-01T09:59:28.084Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..json","line":1173,"method":".json","native":false},{"column":13,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .json]","line":63,"method":"json]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":null,"line":18,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false}]}
+error: uncaughtException: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected string in JSON at position 2464
+SyntaxError: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected string in JSON at position 2464
+    at parse (<anonymous>)
+    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)
+    at Object.nodeDevHook [as .json] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:18:25)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25) {"date":"Thu Aug 01 2024 15:29:31 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":100493},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":745260,"external":3935846,"heapTotal":54956032,"heapUsed":28228576,"rss":68153344},"pid":8984,"uid":null,"version":"v16.15.1"},"stack":"SyntaxError: C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\doc\\swagger-output.json: Unexpected string in JSON at position 2464\n    at parse (<anonymous>)\n    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)\n    at Object.nodeDevHook [as .json] (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:18:25)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)","timestamp":"2024-08-01T09:59:32.003Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..json","line":1173,"method":".json","native":false},{"column":13,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .json]","line":63,"method":"json]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":null,"line":18,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false}]}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:04:25.636Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 162
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:04:46.830Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:04:53.792Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:05:05.353Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:05:51.355Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:06:05.497Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:06:27.239Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:09:07.832Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:09:38.594Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 134
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/signup/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:09:46.342Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 135
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/signup/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:09:59.223Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:11:51.784Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:12:46.446Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:13:08.564Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:13:41.276Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:14:06.253Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:14:58.947Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:19:26.226Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:19:42.184Z"}
+error: 
+    status - 500 
+    message - Error: 
+    at Query.run (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\postgres\query.js:76:25)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\sequelize.js:650:28
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at PostgresQueryInterface.insert (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\dialects\abstract\query-interface.js:795:21)
+    at User.save (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:4154:35)
+    at Function.create (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\sequelize\src\model.js:2305:12) 
+    url - /api/v1/users/signup 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:19:54.882Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 69
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/signup/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:23:16.836Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" is required 
+    url - /api/v1/users/signup/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:23:50.614Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" is required 
+    url - /api/v1/users/signup/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:24:02.343Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users/signup/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:24:12.273Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 79
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/signup/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-01T10:24:35.030Z"}
+error: uncaughtException: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected token s in JSON at position 6502
+SyntaxError: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected token s in JSON at position 6502
+    at parse (<anonymous>)
+    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)
+    at Object.nodeDevHook [as .json] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:18:25)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25) {"date":"Thu Aug 01 2024 15:58:56 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":102257},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":752494,"external":3934887,"heapTotal":54956032,"heapUsed":28379488,"rss":67907584},"pid":16684,"uid":null,"version":"v16.15.1"},"stack":"SyntaxError: C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\doc\\swagger-output.json: Unexpected token s in JSON at position 6502\n    at parse (<anonymous>)\n    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)\n    at Object.nodeDevHook [as .json] (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:18:25)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)","timestamp":"2024-08-01T10:28:56.239Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..json","line":1173,"method":".json","native":false},{"column":13,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .json]","line":63,"method":"json]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":null,"line":18,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false}]}
+error: uncaughtException: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected end of JSON input
+SyntaxError: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected end of JSON input
+    at parse (<anonymous>)
+    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)
+    at Object.nodeDevHook [as .json] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:18:25)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25) {"date":"Thu Aug 01 2024 15:59:00 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":102261},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":743434,"external":3927635,"heapTotal":54956032,"heapUsed":28164752,"rss":67481600},"pid":18644,"uid":null,"version":"v16.15.1"},"stack":"SyntaxError: C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\doc\\swagger-output.json: Unexpected end of JSON input\n    at parse (<anonymous>)\n    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)\n    at Object.nodeDevHook [as .json] (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:18:25)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)","timestamp":"2024-08-01T10:29:00.397Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..json","line":1173,"method":".json","native":false},{"column":13,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .json]","line":63,"method":"json]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":null,"line":18,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false}]}
+error: uncaughtException: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected token } in JSON at position 8294
+SyntaxError: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected token } in JSON at position 8294
+    at parse (<anonymous>)
+    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)
+    at Object.nodeDevHook [as .json] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:18:25)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25) {"date":"Thu Aug 01 2024 16:00:35 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":102356},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":743468,"external":3927654,"heapTotal":54956032,"heapUsed":28250680,"rss":67952640},"pid":14720,"uid":null,"version":"v16.15.1"},"stack":"SyntaxError: C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\doc\\swagger-output.json: Unexpected token } in JSON at position 8294\n    at parse (<anonymous>)\n    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)\n    at Object.nodeDevHook [as .json] (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:18:25)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)","timestamp":"2024-08-01T10:30:35.282Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..json","line":1173,"method":".json","native":false},{"column":13,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .json]","line":63,"method":"json]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":null,"line":18,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false}]}
+error: uncaughtException: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected token } in JSON at position 8701
+SyntaxError: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected token } in JSON at position 8701
+    at parse (<anonymous>)
+    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)
+    at Object.nodeDevHook [as .json] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:18:25)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25) {"date":"Thu Aug 01 2024 16:01:21 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":102402},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":743857,"external":3928043,"heapTotal":54956032,"heapUsed":28099448,"rss":67743744},"pid":2460,"uid":null,"version":"v16.15.1"},"stack":"SyntaxError: C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\doc\\swagger-output.json: Unexpected token } in JSON at position 8701\n    at parse (<anonymous>)\n    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)\n    at Object.nodeDevHook [as .json] (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:18:25)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)","timestamp":"2024-08-01T10:31:21.166Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..json","line":1173,"method":".json","native":false},{"column":13,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .json]","line":63,"method":"json]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":null,"line":18,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false}]}
+error: uncaughtException: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected string in JSON at position 8234
+SyntaxError: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected string in JSON at position 8234
+    at parse (<anonymous>)
+    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)
+    at Object.nodeDevHook [as .json] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:18:25)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25) {"date":"Thu Aug 01 2024 16:02:00 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":102441},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":752189,"external":3928184,"heapTotal":54956032,"heapUsed":28031624,"rss":67751936},"pid":14752,"uid":null,"version":"v16.15.1"},"stack":"SyntaxError: C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\doc\\swagger-output.json: Unexpected string in JSON at position 8234\n    at parse (<anonymous>)\n    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)\n    at Object.nodeDevHook [as .json] (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:18:25)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)","timestamp":"2024-08-01T10:32:00.247Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..json","line":1173,"method":".json","native":false},{"column":13,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .json]","line":63,"method":"json]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":null,"line":18,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false}]}
+error: uncaughtException: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected token e in JSON at position 8757
+SyntaxError: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected token e in JSON at position 8757
+    at parse (<anonymous>)
+    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)
+    at Object.nodeDevHook [as .json] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:18:25)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25) {"date":"Thu Aug 01 2024 16:03:51 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":102552},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":752159,"external":3928153,"heapTotal":54956032,"heapUsed":28396792,"rss":67850240},"pid":23380,"uid":null,"version":"v16.15.1"},"stack":"SyntaxError: C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\doc\\swagger-output.json: Unexpected token e in JSON at position 8757\n    at parse (<anonymous>)\n    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)\n    at Object.nodeDevHook [as .json] (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:18:25)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)","timestamp":"2024-08-01T10:33:51.029Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..json","line":1173,"method":".json","native":false},{"column":13,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .json]","line":63,"method":"json]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":null,"line":18,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false}]}
+error: uncaughtException: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected token ] in JSON at position 8784
+SyntaxError: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected token ] in JSON at position 8784
+    at parse (<anonymous>)
+    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)
+    at Object.nodeDevHook [as .json] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:18:25)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25) {"date":"Thu Aug 01 2024 16:03:58 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":102560},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":752132,"external":3928126,"heapTotal":54956032,"heapUsed":28108000,"rss":67612672},"pid":20584,"uid":null,"version":"v16.15.1"},"stack":"SyntaxError: C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\doc\\swagger-output.json: Unexpected token ] in JSON at position 8784\n    at parse (<anonymous>)\n    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)\n    at Object.nodeDevHook [as .json] (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:18:25)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)","timestamp":"2024-08-01T10:33:58.658Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..json","line":1173,"method":".json","native":false},{"column":13,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .json]","line":63,"method":"json]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":null,"line":18,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false}]}
+error: uncaughtException: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected end of JSON input
+SyntaxError: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected end of JSON input
+    at parse (<anonymous>)
+    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)
+    at Object.nodeDevHook [as .json] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:18:25)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25) {"date":"Thu Aug 01 2024 16:05:21 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":102643},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":736827,"external":3927427,"heapTotal":54956032,"heapUsed":28184152,"rss":68087808},"pid":8516,"uid":null,"version":"v16.15.1"},"stack":"SyntaxError: C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\doc\\swagger-output.json: Unexpected end of JSON input\n    at parse (<anonymous>)\n    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)\n    at Object.nodeDevHook [as .json] (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:18:25)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)","timestamp":"2024-08-01T10:35:21.957Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..json","line":1173,"method":".json","native":false},{"column":13,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .json]","line":63,"method":"json]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":null,"line":18,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false}]}
+error: uncaughtException: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected token } in JSON at position 13519
+SyntaxError: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected token } in JSON at position 13519
+    at parse (<anonymous>)
+    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)
+    at Object.nodeDevHook [as .json] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:18:25)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25) {"date":"Thu Aug 01 2024 16:06:40 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":102721},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":735543,"external":3926127,"heapTotal":54956032,"heapUsed":28169104,"rss":67633152},"pid":22856,"uid":null,"version":"v16.15.1"},"stack":"SyntaxError: C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\doc\\swagger-output.json: Unexpected token } in JSON at position 13519\n    at parse (<anonymous>)\n    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)\n    at Object.nodeDevHook [as .json] (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:18:25)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)","timestamp":"2024-08-01T10:36:40.188Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..json","line":1173,"method":".json","native":false},{"column":13,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .json]","line":63,"method":"json]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":null,"line":18,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false}]}
+error: uncaughtException: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected end of JSON input
+SyntaxError: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected end of JSON input
+    at parse (<anonymous>)
+    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)
+    at Object.nodeDevHook [as .json] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:18:25)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25) {"date":"Thu Aug 01 2024 16:07:26 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":102767},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":741155,"external":3925356,"heapTotal":54956032,"heapUsed":28032360,"rss":67710976},"pid":16104,"uid":null,"version":"v16.15.1"},"stack":"SyntaxError: C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\doc\\swagger-output.json: Unexpected end of JSON input\n    at parse (<anonymous>)\n    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)\n    at Object.nodeDevHook [as .json] (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:18:25)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)","timestamp":"2024-08-01T10:37:26.194Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..json","line":1173,"method":".json","native":false},{"column":13,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .json]","line":63,"method":"json]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":null,"line":18,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false}]}
+error: uncaughtException: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected token } in JSON at position 15543
+SyntaxError: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected token } in JSON at position 15543
+    at parse (<anonymous>)
+    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)
+    at Object.nodeDevHook [as .json] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:18:25)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25) {"date":"Thu Aug 01 2024 16:08:33 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":102834},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":742438,"external":3924830,"heapTotal":54956032,"heapUsed":28390240,"rss":67371008},"pid":10512,"uid":null,"version":"v16.15.1"},"stack":"SyntaxError: C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\doc\\swagger-output.json: Unexpected token } in JSON at position 15543\n    at parse (<anonymous>)\n    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)\n    at Object.nodeDevHook [as .json] (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:18:25)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)","timestamp":"2024-08-01T10:38:33.241Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..json","line":1173,"method":".json","native":false},{"column":13,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .json]","line":63,"method":"json]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":null,"line":18,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false}]}
+error: uncaughtException: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected token } in JSON at position 17546
+SyntaxError: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected token } in JSON at position 17546
+    at parse (<anonymous>)
+    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)
+    at Object.nodeDevHook [as .json] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:18:25)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25) {"date":"Thu Aug 01 2024 16:09:27 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":102889},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":739321,"external":3923506,"heapTotal":54956032,"heapUsed":28246808,"rss":68153344},"pid":1588,"uid":null,"version":"v16.15.1"},"stack":"SyntaxError: C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\doc\\swagger-output.json: Unexpected token } in JSON at position 17546\n    at parse (<anonymous>)\n    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)\n    at Object.nodeDevHook [as .json] (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:18:25)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)","timestamp":"2024-08-01T10:39:27.518Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..json","line":1173,"method":".json","native":false},{"column":13,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .json]","line":63,"method":"json]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":null,"line":18,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false}]}
+error: uncaughtException: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected token } in JSON at position 19568
+SyntaxError: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected token } in JSON at position 19568
+    at parse (<anonymous>)
+    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)
+    at Object.nodeDevHook [as .json] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:18:25)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25) {"date":"Thu Aug 01 2024 16:09:54 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":102916},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":731612,"external":3922196,"heapTotal":54693888,"heapUsed":28289728,"rss":67981312},"pid":17332,"uid":null,"version":"v16.15.1"},"stack":"SyntaxError: C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\doc\\swagger-output.json: Unexpected token } in JSON at position 19568\n    at parse (<anonymous>)\n    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)\n    at Object.nodeDevHook [as .json] (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:18:25)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)","timestamp":"2024-08-01T10:39:54.997Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..json","line":1173,"method":".json","native":false},{"column":13,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .json]","line":63,"method":"json]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":null,"line":18,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false}]}
+error: uncaughtException: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected token } in JSON at position 21595
+SyntaxError: C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\doc\swagger-output.json: Unexpected token } in JSON at position 21595
+    at parse (<anonymous>)
+    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)
+    at Object.nodeDevHook [as .json] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\ts-node-dev\lib\hook.js:63:13)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\index.ts:18:25)
+    at Module._compile (node:internal/modules/cjs/loader:1105:14)
+    at Module._compile (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\source-map-support\source-map-support.js:568:25) {"date":"Thu Aug 01 2024 16:10:23 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":102944},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","./src/index.ts"],"cwd":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":744894,"external":3920887,"heapTotal":54956032,"heapUsed":28107688,"rss":67493888},"pid":21176,"uid":null,"version":"v16.15.1"},"stack":"SyntaxError: C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\doc\\swagger-output.json: Unexpected token } in JSON at position 21595\n    at parse (<anonymous>)\n    at Module._extensions..json (node:internal/modules/cjs/loader:1173:22)\n    at Object.nodeDevHook [as .json] (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js:63:13)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts:18:25)\n    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n    at Module._compile (C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js:568:25)","timestamp":"2024-08-01T10:40:23.079Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..json","line":1173,"method":".json","native":false},{"column":13,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\ts-node-dev\\lib\\hook.js","function":"Object.nodeDevHook [as .json]","line":63,"method":"json]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\src\\index.ts","function":null,"line":18,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1105,"method":"_compile","native":false},{"column":25,"file":"C:\\Users\\Sakhare Sohan\\Desktop\\FundooNotes_Project\\fundooNotes\\node_modules\\source-map-support\\source-map-support.js","function":"Module._compile","line":568,"method":"_compile","native":false}]}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 120
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)
+    at invokeCallback (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:539:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-08-03T06:21:22.299Z"}
