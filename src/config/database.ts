@@ -44,8 +44,8 @@ sequelize
   .catch((error) => {
     console.log('Could not connect to the database.', error.message);
     // logger.error('Could not connect to the database.', error);
-  });
-
+  }); 
+ 
 sequelize.sync();
 
 export default sequelize;

@@ -21,7 +21,7 @@ class UserController {
     next: NextFunction
   ): Promise<any> => {
     try {
-      const data = await this.NoteService.updateNote((req as any).id, req.body);
+      const data = await this.NoteService.updateNote(parseInt(req.params.id), req.body);
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: data,

@@ -14,7 +14,7 @@ class NoteRoutes {
 
   private routes = () => { 
     
-    this.router.put('/update', userAuth, this.noteValidator.updateNote, this.NotesController.updateNote);
+    this.router.put('/update/:id', userAuth, this.noteValidator.updateNote, this.NotesController.updateNote);
     
     this.router.post('/create', userAuth, this.NotesController.createNote);
 
