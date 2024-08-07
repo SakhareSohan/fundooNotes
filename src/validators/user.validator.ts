@@ -36,7 +36,6 @@ class UserValidator {
       firstName: Joi.string().min(3),
       lastName: Joi.string().min(3),
       email: Joi.string().email(),
-      password: Joi.string().alphanum().min(8).pattern(new RegExp('^[a-zA-Z0-9]{3,30}$')),
       mobileNo: Joi.number().min(10),
       dob: Joi.date(),
       gender: Joi.string()

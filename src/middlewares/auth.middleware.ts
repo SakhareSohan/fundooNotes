@@ -1,11 +1,10 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import HttpStatus from 'http-status-codes';
-import jwt from 'jsonwebtoken';
 import { Request, Response, NextFunction } from 'express';
 
-// secreat key
-import config from '../config/config';
-import { Model } from 'sequelize';
+
+import Util from '../utils/user.util';
+const Utils = new Util();
 
 /**
  * Middleware to authenticate if user has a valid Authorization token
@@ -29,9 +28,38 @@ export const userAuth = async (
       };
     bearerToken = bearerToken.split(' ')[1];
 
-    const { id, name } : any = await jwt.verify(bearerToken, config.development.secreat);
+    const {id, name} : any = await Utils.verify(bearerToken);
     (req as any ).id = id;
     (req as any ).name = name;
+    next();
+  } catch (error) {
+    next(error);
+  }
+};
+
+/**
+ * Middleware to authenticate if user has a valid Authorization token
+ * Authorization: Bearer <token>
+ *
+ * @param {Object} req
+ * @param {Object} res
+ * @param {Function} next
+ */
+export const forgetUserAuth = async (
+  req: Request,
+  res: Response,
+  next: NextFunction
+): Promise<void> => {
+  try {
+    let bearerToken = req.header('Authorization');
+    if (!bearerToken)
+      throw {
+        code: HttpStatus.BAD_REQUEST,
+        message: 'Authorization token is required'
+      };
+    console.log("middleware: forgetUserAuth")
+    req.body.email = bearerToken.split(' ')[1];
+
     next();
   } catch (error) {
     next(error);
