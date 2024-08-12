@@ -4,6 +4,7 @@ import { Request, Response, NextFunction } from 'express';
 class NoteValidator {
     public updateNote = (req, res, next) => {
         const schema = Joi.object({
+            id: Joi.number(),
             title: Joi.string().optional(),
             description: Joi.string().optional(),
             color: Joi.string().optional(),

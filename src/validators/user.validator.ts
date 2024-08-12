@@ -33,6 +33,7 @@ class UserValidator {
 
   public update = (req: Request, res: Response, next: NextFunction): void => {
     const schema = Joi.object({
+      id: Joi.number(),
       firstName: Joi.string().min(3),
       lastName: Joi.string().min(3),
       email: Joi.string().email(),

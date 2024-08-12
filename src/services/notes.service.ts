@@ -7,40 +7,42 @@ class NotesServices {
 
   public getAllNotes = async (id): Promise<any[]> => {
     try {
-      console.log('Getting all notes');
       const data = await this.Note.findAll({ where: { createdBy: id } });
       return data;
     } catch (error) {
-      throw new Error(`Error fetching all notes: ${error.message}`);
+      return error;
     }
   }
 
-  public getNotes = async (id: number): Promise<any> => {
+  public getNotes = async (id: number, note_id: number): Promise<any> => {
     try {
-      console.log('inside note services, Getting notes');
-      const data = await this.Note.findOne({ where: { id } });
+      const data = await this.Note.findOne({ where: { id: note_id } });
       return data;
     } catch (error) {
-      throw new Error(`Error fetching note with ID ${id}: ${error.message}`);
+      return error;
     }
   }
 
-  public createNote = async (body: any, id: number): Promise<any> => {
+  public createNote = async (id: number, body: any): Promise<any> => {
     try {
-      console.log('inside note services create notes');
       body.createdBy = id;
       const data = await this.Note.create(body);
       return data;
     } catch (error) {
-      throw new Error(`Error creating note: ${error.message}`);
+     return error;
     }
   }
 
   public updateNote = async (id: number, body: any): Promise<any> => {
     try {
-      console.log('update notes');
-      const [rowsUpdated, [updatedNote]] = await this.Note.update(body, {
-        where: { id },
+      const sanitizedBody = Object.keys(body).reduce((result, key) => {
+        if (key !== 'id') {
+            result[key] = body[key];
+        }
+        return result;
+    }, {});
+      const [rowsUpdated, [updatedNote]] = await this.Note.update(sanitizedBody, {
+        where: { id: id },
         returning: true,
       });
       if (rowsUpdated === 0) {
@@ -48,7 +50,7 @@ class NotesServices {
       }
       return updatedNote;
     } catch (error) {
-      throw new Error(`Error updating note with ID ${id}: ${error.message}`);
+      return error;
     }
   }
 
@@ -58,7 +60,7 @@ class NotesServices {
       let rowsUpdated = 0
       const note = await this.Note.findOne({ where: { id } });
       if (!note) {
-        throw new Error(`No note found with ID ${id}`);
+        return null;
       }
       if (note.archive === false) {
         console.log(note);
@@ -70,13 +72,9 @@ class NotesServices {
           where: { id },
         });
       }
-
-      if (rowsUpdated === 0) {
-        throw new Error(`No note found with ID ${id} to archive`);
-      }
       return 'Note archived';
     } catch (error) {
-      throw new Error(`Error archiving note with ID ${id}: ${error.message}`);
+      return error;
     }
   }
 
@@ -103,21 +101,22 @@ class NotesServices {
       }
       return 'Note trashed';
     } catch (error) {
-      throw new Error(`Error trash note with ID ${id}: ${error.message}`);
+      return error;
     }
   }
 
   public deleteNote = async (id: number): Promise<string> => {
     try {
       const rowsDeleted = await this.Note.destroy({
-        where: { id },
+        where: { id: id }
       });
-      if (rowsDeleted === 0) {
-        throw new Error(`No note found with ID ${id} to delete`);
+      if(rowsDeleted){
+        return 'Note deleted';
+      } else {
+        return 'Something went wrong'
       }
-      return 'Note deleted';
     } catch (error) {
-      throw new Error(`Error deleting note with ID ${id}: ${error.message}`);
+      return error;
     }
   }
 }

@@ -25,7 +25,7 @@ class UserController {
       res.status(HttpStatus.CREATED).json({
         code: HttpStatus.CREATED,
         data: data,
-        message: 'User created successfully'
+        message: 'User Registration'
       });
     } catch (error) {
       next(error);
@@ -45,12 +45,10 @@ class UserController {
   ): Promise<any> => {
     try {
       const data = await this.UserService.login(req.body.email, req.body.password);
-      // res.cookie('jwt', data, { httpOnly: true });
-      res.header({ 'Authorization' : (`Bearer ${data}`) }); // header sent in Authentication
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: data,
-        message: `${req.body.email}`
+        message: `User Login `
       });
     } catch (error) {
       next(error);
@@ -69,19 +67,11 @@ class UserController {
     next: NextFunction
   ): Promise<any> => {
     try {
-      // const token = await req.cookies.jwt;
-      // if (!token) {
-      //   return res.status(HttpStatus.UNAUTHORIZED).json({
-      //     code: HttpStatus.UNAUTHORIZED,
-      //     message: 'No token provided'
-      //   });
-      // };
-      
-      const data = await this.UserService.getUser(parseInt((req as any).id));
+      const data = await this.UserService.getUser(req.body.id);
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: data,
-        message: 'User fetched successfully'
+        message: 'User Profile'
       });
     } catch (error) {
       next(error);
@@ -100,11 +90,11 @@ class UserController {
     next: NextFunction
   ): Promise<any> => {
     try {
-      const data = await this.UserService.updateUser(parseInt((req as any).id), req.body);
+      const data = await this.UserService.updateUser(req.body.id, req.body);
       res.status(HttpStatus.ACCEPTED).json({
         code: HttpStatus.ACCEPTED,
         data: data,
-        message: 'User updated successfully'
+        message: 'User Update'
       });
     } catch (error) {
       next(error);
@@ -123,18 +113,40 @@ class UserController {
       next: NextFunction
     ): Promise<any> => {
       try {
-        const data = await this.UserService.updateUser(parseInt((req as any).id), req.body);
+        const data = await this.UserService.updateUser(req.body.id, req.body);
         res.status(HttpStatus.ACCEPTED).json({
           code: HttpStatus.ACCEPTED,
           data: data,
-          message: 'User updated successfully'
+          message: 'User Update'
         });
       } catch (error) {
         next(error);
       }
     };
 
-  
+        /**
+   * Controller to update a user
+   * @param  {object} Request - request object
+   * @param {object} Response - response object
+   * @param {Function} NextFunction
+   */
+        public deleteUser = async (
+          req: Request,
+          res: Response,
+          next: NextFunction
+        ): Promise<any> => {
+          try {
+            const data = await this.UserService.deleteUser(req.body.id);
+            res.status(HttpStatus.ACCEPTED).json({
+              code: HttpStatus.ACCEPTED,
+              data: data,
+              message: 'User Delete'
+            });
+          } catch (error) {
+            next(error);
+          }
+        };
+ 
 /**
    * Controller to update a user
    * @param  {object} Request - request object
@@ -151,7 +163,7 @@ public forgetUser = async (
     res.status(HttpStatus.ACCEPTED).json({
       code: HttpStatus.ACCEPTED,
       data: data,
-      message: 'User updated successfully'
+      message: 'Forgot Password'
     });
   } catch (error) {
     next(error);
@@ -170,11 +182,11 @@ public reset = async (
   next: NextFunction
 ): Promise<any> => {
   try {
-    const data = await this.UserService.reset(req.body.email, req.body.password);
+    const data = await this.UserService.reset(req.body.id, req.body.password);
     res.status(HttpStatus.ACCEPTED).json({
       code: HttpStatus.ACCEPTED,
       data: data,
-      message: 'User updated successfully'
+      message: 'Password Reset'
     });
   } catch (error) {
     next(error);

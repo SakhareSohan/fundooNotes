@@ -56,7 +56,7 @@
         }
       }
     },
-    "/users/signup/": {
+    "/users/": {
       "post": {
         "summary": "User Registration",
         "operationId": "register user",
@@ -229,7 +229,7 @@
         }
       }
     },
-    "/notes/create/": {
+    "/notes/": {
       "post": {
         "security": [
           {
@@ -342,7 +342,7 @@
         }
       }
     },
-    "/notes/update/{id}": {
+    "/notes/{id}": {
       "put": {
         "summary": "Updates new Notes",
         "operationId": "Updation",
@@ -465,7 +465,7 @@
         }
       }
     },
-    "/notes/allNotes/": {
+    "/notes/": {
       "get": {
         "summary": "Fetches all notes of user",
         "operationId": "Fetching",
@@ -551,7 +551,7 @@
         }
       }
     },
-    "/notes/getNote/{id}": {
+    "/notes/{id}": {
       "get": {
         "summary": "gets specific note",
         "operationId": "retrival",

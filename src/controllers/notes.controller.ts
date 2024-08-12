@@ -8,7 +8,30 @@ import { Request, Response, NextFunction } from 'express';
 
 class UserController { 
   public NoteService = new notesService();
-  
+
+    /**
+  * Controller to get a single user
+  * @param  {object} Request - request object
+  * @param {object} Response - response object
+  * @param {Function} NextFunction
+  */
+    public createNote = async (
+      req: Request,
+      res: Response,
+      next: NextFunction
+    ): Promise<any> => {
+      try {
+        const data = await this.NoteService.createNote(req.body.id, req.body);
+        res.status(HttpStatus.OK).json({
+          code: HttpStatus.OK,
+          data: data,
+          message: 'Note Create'
+        });
+      } catch (error) {
+        next(error);
+      }
+    };
+
    /**
   * Controller to get a single user
   * @param  {object} Request - request object
@@ -21,39 +44,18 @@ class UserController {
     next: NextFunction
   ): Promise<any> => {
     try {
-      const data = await this.NoteService.updateNote(parseInt(req.params.id), req.body);
+      const data = await this.NoteService.updateNote(req.body.id, req.body);
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: data,
-        message: 'Note Updated Successfully'
+        message: 'Note Update'
       });
     } catch (error) {
       next(error);
     }
   };
 
-  /**
-  * Controller to get a single user
-  * @param  {object} Request - request object
-  * @param {object} Response - response object
-  * @param {Function} NextFunction
-  */
-  public createNote = async (
-    req: Request,
-    res: Response,
-    next: NextFunction
-  ): Promise<any> => {
-    try {
-      const data = await this.NoteService.createNote(req.body, (req as any).id);
-      res.status(HttpStatus.OK).json({
-        code: HttpStatus.OK,
-        data: data,
-        message: 'Note Created Successfully'
-      });
-    } catch (error) {
-      next(error);
-    }
-  };
+
 
   /**
   * Controller to get a single user
@@ -67,11 +69,11 @@ class UserController {
     next: NextFunction
   ): Promise<any> => {
     try {
-      const data = await this.NoteService.getNotes(parseInt(req.params.id));
+      const data = await this.NoteService.getNotes(req.body.id, parseInt(req.params.id));
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: data,
-        message: 'Note fetched successfully'
+        message: 'Note fetch'
       });
     } catch (error) {
       next(error);
@@ -90,11 +92,11 @@ class UserController {
     next: NextFunction
   ): Promise<any> => {
     try {
-      const data = await this.NoteService.getAllNotes((req as any).id);
+      const data = await this.NoteService.getAllNotes(req.body.id);
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: data,
-        message: 'Notes fetched successfully'
+        message: 'All Notes'
       });
     } catch (error) {
       next(error);
@@ -117,7 +119,7 @@ class UserController {
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: data,
-        message: 'Note Archive successfully'
+        message: 'Note Archive'
       });
     } catch (error) {
       next(error);
@@ -140,7 +142,7 @@ class UserController {
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: data,
-        message: 'Note Trashed successfully'
+        message: 'Note Trash'
       });
     } catch (error) {
       next(error);
@@ -163,7 +165,7 @@ class UserController {
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: data,
-        message: 'Note Deleted successfully'
+        message: 'Note Delete'
       });
     } catch (error) {
       next(error);

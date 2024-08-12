@@ -1,3 +1,4 @@
+import config from '../config/config';
 import sequelize, { DataTypes } from '../config/database';
 import user from '../models/user';
 import utils from '../utils/user.util';
@@ -8,17 +9,25 @@ class UserService {
   private Utils = new utils();
 
   public register = async (body) => {
-    const data = await this.User.create(body);
-    return data;
+    try {
+      const data = await this.User.create(body);
+      return data;
+    } catch (err) {
+      return err;
+    }
   };
 
   public login = async (email, password) => {
-    let data = await this.User.findOne({ where: { email: email } });
-    if (data && await bcrypt.compare(password, data.password)) {
-      const token = await this.Utils.login(data.dataValues.id, data.dataValues.firstName);
-      return token;
-    } else {
-      return 'Inavlid Credentials';
+    try {
+      let data = await this.User.findOne({ where: { email: email } });
+      if (data && await bcrypt.compare(password, data.password)) {
+        const token = await this.Utils.tokenGen(data.dataValues.id, config.development.secreat);
+        return token;
+      } else {
+        return 'No User Was Found With Email';
+      }
+    } catch (err) {
+      return err;
     }
   };
 
@@ -28,35 +37,67 @@ class UserService {
       return data.dataValues;
     }
     catch (error) {
-      throw new Error('User not found');
+      return error;
     }
-
   };
 
   public updateUser = async (id, body) => {
-    await this.User.update(body, {
-      where: { id: id },
-      individualHooks: true,
-    });
-    return body;
+    try{
+      const sanitizedBody = Object.keys(body).reduce((result, key) => {
+        if (key !== 'id') {
+            result[key] = body[key];
+        }
+        return result;
+    }, {});
+      const data = await this.User.update(sanitizedBody, {
+        where: { id: id },
+        individualHooks: true,
+      });
+      return data;
+    } catch (error) {
+      return error;
+    }
+    
   };
 
+  public deleteUser = async (id) => {
+    try{
+      const data = await this.User.destroy({
+        where: { id: id },
+      });
+      return data;
+    } catch (error) {
+      return error;
+    }
+  };
 
-////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////
 
   public forgetUser = async (email) => {
-    const data = await this.User.findOne({ where: email });
-    const token = await this.Utils.forgetUser(data.email);
-    return token;
+    try {
+      const data = await this.User.findOne({ where: email });
+      console.log(data);
+      if (data){
+        const token = await this.Utils.tokenGen(data.dataValues.id, config.development.forget_secreat);
+        return token;
+      } else {
+        return 'No User Found';
+      }
+      
+    } catch (error) {
+      return error;
+    }
+
   }
 
-  public reset = async (token, password) => {
-    const email = await this.Utils.forgetUserVerify(token);
-    if (email) {
-      const data = await this.User.update({password:password}, { where: { email : email }, individualHooks: true });
-      return data;
-    }
-    return 'Invalid Token';
+  public reset = async (id, password) => {
+    try {
+        const data = await this.User.update({ password: password }, { where: { id: id }, individualHooks: true });
+        return data;
+    } catch (error) {
+      return error;
+    } 
+
   }
 }
 
