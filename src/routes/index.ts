@@ -9,16 +9,15 @@ import noteRoute from './notes.routes';
  * @returns router
  */
 const routes = (): IRouter => {
-  
-  router.get('/', (req, res) => {
-    res.json('Welcome');
-  });
-  
-  router.use('/users', new userRoute().getRoutes());
+ router.get('/', (req, res) => {
+  res.json('Welcome');
+ });
 
-  router.use('/notes', new noteRoute().getRoutes());
+ router.use('/users', new userRoute().getRoutes());
 
-  return router;
+ router.use('/notes', new noteRoute().getRoutes());
+
+ return router;
 };
 
 export default routes;

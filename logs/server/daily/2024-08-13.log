@@ -1,0 +1,24 @@
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-13T06:42:55.049Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-13T06:43:31.247Z"}
+error: 
+    status - 500 
+    message - TokenExpiredError: jwt expired
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\jsonwebtoken\verify.js:152:21
+    at getSecret (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\node_modules\jsonwebtoken\verify.js:94:10)
+    at Util.<anonymous> (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\utils\user.util.ts:10:26)
+    at Generator.next (<anonymous>)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\utils\user.util.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\utils\user.util.ts:4:12)
+    at Util.tokenVerify (C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\utils\user.util.ts:24:16)
+    at C:\Users\Sakhare Sohan\Desktop\FundooNotes_Project\fundooNotes\src\middlewares\auth.middleware.ts:31:35 
+    url - /api/v1/users/ 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-08-13T06:47:15.671Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-13T06:49:11.883Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-13T06:49:15.454Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-13T06:49:25.425Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-13T06:49:40.446Z"}
+info: Server started at localhost:3000/api/v1/ {"timestamp":"2024-08-13T06:50:40.821Z"}
