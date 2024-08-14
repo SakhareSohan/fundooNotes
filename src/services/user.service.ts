@@ -12,6 +12,7 @@ class UserService {
  public register = async (body) => {
   try {
    const data = await this.User.create(body);
+   const message = await this.Utils.sendMessage(data);
    return data;
   } catch (err) {
    return err;

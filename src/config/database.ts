@@ -1,14 +1,5 @@
 import { Sequelize } from 'sequelize';
-// import Logger from './logger';
-
-// Config File import
 import config from './config';
-// import dotenv from 'dotenv';
-// dotenv.config();
-
-// export { DataTypes } from 'sequelize';
-
-// const logger = Logger.logger;
 
 let DATABASE = config.development.database;
 let USERNAME = config.development.username;
@@ -39,13 +30,11 @@ sequelize
  .authenticate()
  .then(() => {
   console.log('Connected to the database.');
-  // logger.info('Connected to the database.');
  })
  .catch((error) => {
   console.log('Could not connect to the database.', error.message);
-  // logger.error('Could not connect to the database.', error);
  });
 
-sequelize.sync({ force: true });
+sequelize.sync();
 
 export default sequelize;

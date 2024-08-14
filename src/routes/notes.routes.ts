@@ -2,11 +2,13 @@ import express, { IRouter } from 'express';
 import notesController from '../controllers/notes.controller';
 import { userAuth } from '../middlewares/auth.middleware';
 import NoteValidator from '../validators/notes.validator';
+import notesUtil from '../utils/note.util';
 
 class NoteRoutes {
  private NotesController = new notesController();
  private router = express.Router();
  private noteValidator = new NoteValidator();
+ private util = new notesUtil();
 
  constructor() {
   this.routes();
@@ -22,7 +24,12 @@ class NoteRoutes {
 
   this.router.post('/', userAuth, this.NotesController.createNote);
 
-  this.router.get('/', userAuth, this.NotesController.getAllNotes);
+  this.router.get(
+   '/',
+   userAuth,
+   this.util.get,
+   this.NotesController.getAllNotes
+  );
 
   this.router.get('/:id', userAuth, this.NotesController.getNote);
 
