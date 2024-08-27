@@ -1,0 +1,2 @@
+info: ::1 - - [22/Aug/2024:08:04:48 +0000] "POST /api/v1/users/signup HTTP/1.1" 404 47 "-" "PostmanRuntime/7.41.1"
+
