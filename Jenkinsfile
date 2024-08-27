@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Cloning the repository from GitHub
-                git branch: 'user', url: 'https://github.com/SakhareSohan/fundooNotes.git'
+                git branch: 'main', url: 'https://github.com/SakhareSohan/fundooNotes.git'
             }
         }
 
